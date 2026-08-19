@@ -177,3 +177,8 @@ Do not commit a personal absolute path after changing the parameter locally.
 ## Disclaimer
 
 This is an independent portfolio project. It is not affiliated with, endorsed by, or commissioned by the Canadian Cancer Society. Statistics Canada is the source of the underlying survey data. Analytical interpretations, dashboard design, and fundraising implications are the author's own.
+
+## Project Documentation
+
+- [Project Brief](docs/Donor_Intelligence_Project_Brief.pdf)
+- [Methodology](docs/METHODOLOGY.md)
