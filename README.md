@@ -10,9 +10,11 @@ The project combines Python, SQL, weighted survey analysis, Power BI semantic mo
 
 ### Power BI Dashboard
 
-**[Open the Power BI Project](powerbi/Canadian_Cancer_Society_Donor_Intelligence.pbip)**
+**[Download the Power BI Dashboard (.pbix)](powerbi/Canadian_Cancer_Society_Donor_Intelligence.pbix)**
 
-The complete dashboard is available as a Power BI Project (PBIP). Download or clone the repository and open the file in Power BI Desktop.
+Download the report and open it directly in Power BI Desktop.
+
+**[View the Power BI Source Project (.pbip)](powerbi/Canadian_Cancer_Society_Donor_Intelligence.pbip)** — project-format source for technical review and version control.
 
 **Quick preview:** The dashboard screenshots below show all eight report pages.
 
@@ -194,3 +196,4 @@ This is an independent portfolio project. It is not affiliated with, endorsed by
 
 - [Project Brief](docs/Donor_Intelligence_Project_Brief.pdf)
 - [Methodology](docs/METHODOLOGY.md)
+
