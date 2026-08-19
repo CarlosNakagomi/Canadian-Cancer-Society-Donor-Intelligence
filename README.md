@@ -54,18 +54,39 @@ Verified project workflow:
 
 ## Dashboard
 
-The Power BI report contains 8 pages:
+The Power BI report contains 8 pages. The PBIP project is in [powerbi/](powerbi/), and the report has been visually reviewed in Power BI Desktop before publication preparation.
 
-1. Executive Overview
-2. Who Are Health Donors?
-3. Giving Behaviour & Channels
-4. Motivations
-5. Barriers
-6. Fundraising Opportunities
-7. Exploratory Predictive Insights
-8. Methodology / Data Notes
+### Executive Overview
 
-The PBIP project is in [powerbi/](powerbi/). The report has been visually reviewed in Power BI Desktop before publication preparation.
+![Executive Overview](images/01_executive_overview.png)
+
+### Who Are Health Donors?
+
+![Who Are Health Donors?](images/02_who_are_health_donors.png)
+
+### Giving Behaviour & Channels
+
+![Giving Behaviour & Channels](images/03_giving_behaviour_channels.png)
+
+### Motivations
+
+![Motivations](images/04_motivations.png)
+
+### Barriers
+
+![Barriers](images/05_barriers.png)
+
+### Fundraising Opportunities
+
+![Fundraising Opportunities](images/06_fundraising_opportunities.png)
+
+### Exploratory Predictive Insights
+
+![Exploratory Predictive Insights](images/07_exploratory_predictive_insights.png)
+
+### Methodology / Data Notes
+
+![Methodology / Data Notes](images/08_methodology_data_notes.png)
 
 ## Key Findings
 
@@ -102,7 +123,7 @@ src/        Python, JavaScript, and SQL analytical source files
 data/       Source-data acquisition and data policy notes
 outputs/    Approved aggregated Power BI-ready outputs
 powerbi/    Clean PBIP report and semantic model
-images/     Placeholder for dashboard screenshots
+images/     Power BI dashboard screenshots
 ```
 
 ## Reproducing The Analysis
