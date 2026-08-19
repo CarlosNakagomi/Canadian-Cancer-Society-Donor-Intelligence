@@ -6,6 +6,18 @@ This project is a Data Analyst / Business Intelligence portfolio case study usin
 
 The project combines Python, SQL, weighted survey analysis, Power BI semantic modeling, DAX measures, and an exploratory predictive model. It is not affiliated with, commissioned by, or endorsed by the Canadian Cancer Society or Statistics Canada.
 
+## View the Project
+
+### Power BI Dashboard
+
+**[Open the Power BI Project](powerbi/Canadian_Cancer_Society_Donor_Intelligence.pbip)**
+
+The complete dashboard is available as a Power BI Project (PBIP). Download or clone the repository and open the file in Power BI Desktop.
+
+**Quick preview:** The dashboard screenshots below show all eight report pages.
+
+- [Project Brief](docs/Donor_Intelligence_Project_Brief.pdf)
+
 ## Project Overview
 
 The business objective is to translate national charitable giving survey data into practical donor intelligence for a hypothetical Canadian health charity. The report is designed for executive review: it summarizes who Health donors are, how they give, what motivates them, what barriers they report, and where descriptive fundraising opportunities may exist.
