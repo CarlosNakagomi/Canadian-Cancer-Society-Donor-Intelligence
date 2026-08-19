@@ -2,8 +2,10 @@
 
 This chapter synthesizes Chapters 1-5 into priority audience and evidence tables for Power BI and the final executive report.
 
-Run from the project root using the Chapter 2 Python environment:
+Install the shared repository dependencies from `requirements.txt`. The archived source file is available at:
 
 ```powershell
-& "Chapter 2\.venv\Scripts\python.exe" "Chapter 6\scripts\chapter6_opportunity.py"
+src/python/chapter6_opportunity.py
 ```
+
+This script preserves original chapter-folder input assumptions. The publication repository includes approved dashboard-ready aggregates in outputs/powerbi/ and powerbi/data/PowerBI_Data.xlsx.

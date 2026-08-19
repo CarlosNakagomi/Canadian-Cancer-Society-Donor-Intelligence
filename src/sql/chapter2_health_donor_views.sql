@@ -3,15 +3,16 @@
 -- Engine: SQLite 3.
 -- Source table: sgvp_chapter2.
 -- Source file:
---   Chapter 2/data/processed/sgvp_2023_chapter2_health_donor_analytical.csv
+--   data/processed/sgvp_2023_chapter2_health_donor_analytical.csv
 --
 -- Import assumption:
---   1. Run this file once through the CREATE TABLE statement.
---   2. Import the CSV into sgvp_chapter2 using the header row as column names.
+--   1. Regenerate the respondent-level analytical CSV from the upstream Python workflow after obtaining the SGVP source archive.
+--   2. Run this file once through the CREATE TABLE statement.
+--   3. Import the CSV into sgvp_chapter2 using the header row as column names.
 --      SQLite CLI example:
 --        .mode csv
---        .import --skip 1 "Chapter 2/data/processed/sgvp_2023_chapter2_health_donor_analytical.csv" sgvp_chapter2
---   3. Run the view definitions.
+--        .import --skip 1 "data/processed/sgvp_2023_chapter2_health_donor_analytical.csv" sgvp_chapter2
+--   4. Run the view definitions.
 --
 -- This SQL recreates the important flags, weighted rate/mean aggregations,
 -- segment comparisons, and volunteering valid-denominator calculations.

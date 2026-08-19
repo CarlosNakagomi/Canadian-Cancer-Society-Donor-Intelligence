@@ -6,22 +6,17 @@ It builds on the Chapter 1 Canadian donor baseline and focuses on donors who fin
 
 ## Reproduce
 
-Use Python 3.10 or newer. From the project root, create a local virtual environment for Chapter 2 and install dependencies:
+Use Python 3.10 or newer. In this publication repository, install the shared dependencies from the repository root:
 
 ```powershell
-py -3 -m venv "Chapter 2\.venv"
-& "Chapter 2\.venv\Scripts\python.exe" -m pip install --upgrade pip
-& "Chapter 2\.venv\Scripts\python.exe" -m pip install -r "Chapter 2\requirements.txt"
+py -3 -m venv .venv
+& ".venv\Scripts\python.exe" -m pip install --upgrade pip
+& ".venv\Scripts\python.exe" -m pip install -r requirements.txt
 ```
 
-Then run the workflow from the project root:
+The archived source file is available at `src/python/chapter2_health_donor_analysis.py`. It preserves the original chapter-folder output assumptions used during analysis, so full upstream regeneration requires the SGVP archive plus either the original chapter layout or path adaptation before execution.
 
-```powershell
-& "Chapter 2\.venv\Scripts\python.exe" "Chapter 2\scripts\chapter2_health_donor_analysis.py"
-```
-
-For this local working copy only, the script also supports the existing `Chapter 2\.python_packages` folder if present. A fresh GitHub portfolio clone should use the virtual environment workflow above.
-
+The final dashboard does not require rerunning this script; it refreshes from `powerbi/data/PowerBI_Data.xlsx` after setting the `PowerBIWorkbookPath` parameter.
 ## Folder Structure
 
 - `data/processed/`: analytical respondent-level Chapter 2 dataset.

@@ -4,14 +4,9 @@ This chapter analyzes giving channels and giving behaviours among Health donors 
 
 ## Reproduce
 
-Use the Chapter 2 environment or install `Chapter 2/requirements.txt`, then run from the project root:
+Install the shared repository dependencies from `requirements.txt`. The archived source file is available at `src/python/chapter3_how_they_give.py`.
 
-```powershell
-& "Chapter 2\.venv\Scripts\python.exe" "Chapter 3\scripts\chapter3_how_they_give.py"
-```
-
-If the local Chapter 2 `.python_packages` folder exists, the script can also use it.
-
+This script preserves original chapter-folder path assumptions for upstream regeneration. The committed Power BI dashboard uses the already prepared aggregate data in `outputs/powerbi/` and `powerbi/data/PowerBI_Data.xlsx`.
 ## Outputs
 
 - `docs/`: variable dictionary and methodology.

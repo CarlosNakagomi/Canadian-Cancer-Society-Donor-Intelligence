@@ -2,10 +2,10 @@
 
 This chapter analyzes documented reasons for charitable giving among Health donors and compares them with non-Health charitable donors.
 
-Run from the project root using the Chapter 2 Python environment:
+Install the shared repository dependencies from `requirements.txt`. The archived source file is available at:
 
 ```powershell
-& "Chapter 2\.venv\Scripts\python.exe" "Chapter 4\scripts\chapter4_why_they_give.py"
+src/python/chapter4_why_they_give.py
 ```
 
-Outputs are organized into `docs/`, `outputs/`, `data/processed/`, `data/powerbi/`, and `sql/`.
+The script preserves original chapter-folder output assumptions. The publication repository includes approved dashboard-ready aggregates in `outputs/powerbi/` and `powerbi/data/PowerBI_Data.xlsx`.

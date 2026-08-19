@@ -136,7 +136,11 @@ Install Python dependencies:
 python -m pip install -r requirements.txt
 ```
 
-The copied source files are organized for publication. The original working project used chapter folders and project-root-relative paths, so reproducing the full workflow may require running scripts from a restored chapter-folder layout or adapting paths. The analytical logic is preserved in `src/`; raw data is intentionally excluded.
+### Reproducibility Note
+
+The final Power BI dashboard is reproducible from the committed Power BI-ready staging workbook in `powerbi/data/PowerBI_Data.xlsx`. The original Statistics Canada SGVP 2023 PUMF raw dataset is intentionally not committed because redistribution rights were not established. Full upstream regeneration requires obtaining the SGVP 2023 PUMF source archive separately and placing it at the project root as `GVP_DBP_2023.zip`.
+
+The copied source files in `src/` preserve the analytical logic from the original chapter workflow. Some scripts intentionally retain archival chapter-folder path assumptions from the working project, so full regeneration may require restoring that chapter-folder layout or adapting paths before execution. The committed `outputs/powerbi/` files and `powerbi/data/PowerBI_Data.xlsx` provide the reproducible dashboard layer for portfolio review.
 
 The Power BI report uses a copied aggregated staging workbook at:
 

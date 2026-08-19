@@ -36,7 +36,7 @@ The workflow is raw data, data understanding, data quality assessment, cleaning 
 Run:
 
 ```powershell
-node scripts/chapter1_data_understanding_analysis.js
+node src/javascript/chapter1_data_understanding_analysis.js
 ```
 
 Python/pandas is the intended portfolio stack. A pandas version of the workflow can mirror the fixed-width positions and cleaning rules documented here; local execution used Node because Python is not available on this machine's PATH.

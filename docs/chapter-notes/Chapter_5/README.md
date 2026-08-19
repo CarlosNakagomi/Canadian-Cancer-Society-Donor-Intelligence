@@ -2,10 +2,10 @@
 
 This chapter analyzes documented barriers to giving more among Health donors, non-Health donors, and non-donors.
 
-Run from the project root using the Chapter 2 Python environment:
+Install the shared repository dependencies from `requirements.txt`. The archived source file is available at:
 
 ```powershell
-& "Chapter 2\.venv\Scripts\python.exe" "Chapter 5\scripts\chapter5_barriers.py"
+src/python/chapter5_barriers.py
 ```
 
-Outputs are organized into `docs/`, `outputs/`, `data/processed/`, `data/powerbi/`, and `sql/`.
+The script preserves original chapter-folder output assumptions. The publication repository includes approved dashboard-ready aggregates in `outputs/powerbi/` and `powerbi/data/PowerBI_Data.xlsx`.

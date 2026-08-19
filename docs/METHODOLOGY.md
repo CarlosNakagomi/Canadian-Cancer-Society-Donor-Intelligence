@@ -10,6 +10,8 @@ The project is descriptive. It is intended for portfolio demonstration and execu
 
 The working project parsed the raw SGVP fixed-width data from `GVP_DBP_2023.zip` using official SGVP documentation and layout files.
 
+The publication repository includes the analytical source files under `src/`, approved aggregated outputs under `outputs/powerbi/`, and the Power BI staging workbook under `powerbi/data/PowerBI_Data.xlsx`. The raw SGVP archive is not committed. Some upstream scripts intentionally preserve the original chapter-folder path assumptions used during analysis; use them as audited source logic unless the original layout is restored or paths are adapted.
+
 Preparation steps verified in the project:
 
 1. Inspect official English codebook, questionnaire, user guide, and SAS layout files.
