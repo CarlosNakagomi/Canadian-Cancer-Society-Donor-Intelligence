@@ -1,0 +1,15 @@
+check,result,details
+Chapter 1 validation statuses,pass,Documented review rows: largest_donation_amounts_top_5 | 138800; 121100; 120000; 111200; 107600 | review
+Chapter 2 validation statuses,pass,
+Chapter 3 validation statuses,pass,
+Chapter 4 validation statuses,pass,
+Chapter 5 validation statuses,pass,
+Chapter 6 validation statuses,pass,
+Bonus validation statuses,pass,
+Chapter 1 donor weighted total,17733073,"Expected 17,733,073"
+Chapter 2 all donors baseline matches Chapter 1,17733073,"Expected 17,733,073"
+Health donor definition carried forward,Primary Chapter 2 definition: positive valid Health amount or count,Used as foundation for Chapters 3-6 and Bonus
+Chapter 3 channel rates valid denominators present,True,Rates use yes over valid yes/no denominator
+Chapter 4 motivation rates valid denominators present,True,Rates use yes over valid yes/no denominator
+Chapter 5 core barrier denominators present for donor groups,True,Conditional barriers retain separate applicability
+Power BI selected table count,25,Only dashboard-needed files copied

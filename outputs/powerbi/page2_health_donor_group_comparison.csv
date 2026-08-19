@@ -1,0 +1,6 @@
+group,sample_n,weighted_population,sample_charitable_donor_n,weighted_charitable_donors,weighted_charitable_donor_rate_pct,sample_health_donor_n,weighted_health_donors,weighted_health_donor_rate_population_pct,weighted_health_donor_rate_among_donors_pct,weighted_mean_total_donation_among_group_donors,weighted_median_total_donation_among_group_donors,weighted_mean_total_frequency_among_group_donors,weighted_median_total_frequency_among_group_donors,weighted_total_health_dollars,weighted_mean_health_donation,weighted_median_health_donation,weighted_mean_health_frequency,weighted_median_health_frequency
+Canadian population,26678,33038673,15934,17733073,53.7,6399,6797272,20.6,38.3,752.7,150.0,3.1,2.0,1793152067,263.8,60.0,1.66,1.0
+All charitable donors,15934,17733073,15934,17733073,100.0,6399,6797272,38.3,38.3,752.7,150.0,3.1,2.0,1793152067,263.8,60.0,1.66,1.0
+Health donors,6399,6797272,6399,6797272,100.0,6399,6797272,100.0,100.0,937.92,230.0,4.41,4.0,1793152067,263.8,60.0,1.66,1.0
+Non-Health donors,9535,10935802,9535,10935802,100.0,0,0,0.0,0.0,637.57,110.0,2.28,2.0,0,,,,
+Non-donors,10744,15305600,0,0,0.0,0,0,0.0,,,,,,0,,,,

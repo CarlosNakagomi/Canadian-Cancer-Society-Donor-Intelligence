@@ -1,0 +1,66 @@
+chapter,segment_variable,segment_label,channel_key,channel_label,sort_order,sample_health_donor_n,weighted_health_donors,valid_denominator_weighted,sample_channel_user_n,weighted_channel_users,weighted_channel_use_rate_pct
+Chapter 3,health_value_segment,$0.50-$49,mail,Mail,1,2139,2314418,2314418,544,507363,21.9
+Chapter 3,health_value_segment,$0.50-$49,telephone,Telephone,2,2139,2314418,2314418,195,136712,5.9
+Chapter 3,health_value_segment,$0.50-$49,television,Television,3,2139,2314418,2314418,159,147698,6.4
+Chapter 3,health_value_segment,$0.50-$49,online,Online,4,2139,2314418,2314418,422,424173,18.3
+Chapter 3,health_value_segment,$0.50-$49,own_initiative,On own initiative,5,2139,2314418,2314418,512,510313,22.0
+Chapter 3,health_value_segment,$0.50-$49,charity_event,Charity event,6,2139,2314418,2314418,385,369095,15.9
+Chapter 3,health_value_segment,$0.50-$49,in_memory,In memory of someone,7,2139,2314418,2314418,715,636383,27.5
+Chapter 3,health_value_segment,$0.50-$49,work,Work,8,2139,2314418,2314418,560,538101,23.2
+Chapter 3,health_value_segment,$0.50-$49,door_to_door,Door-to-door canvassing,9,2139,2314418,2314418,548,481022,20.8
+Chapter 3,health_value_segment,$0.50-$49,shopping_centre,Shopping centre,10,2139,2314418,2314418,1177,1300861,56.2
+Chapter 3,health_value_segment,$0.50-$49,place_of_worship,Place of worship,11,2139,2314418,2314418,734,634717,27.4
+Chapter 3,health_value_segment,$0.50-$49,sponsoring_someone,Sponsoring someone,12,2139,2314418,2314418,664,580964,25.1
+Chapter 3,health_value_segment,$0.50-$49,other,Other,13,2139,2314418,2314418,193,169897,7.3
+Chapter 3,health_value_segment,$50-$99,mail,Mail,1,1464,1513330,1513330,549,511208,33.8
+Chapter 3,health_value_segment,$50-$99,telephone,Telephone,2,1464,1513330,1513330,185,152344,10.1
+Chapter 3,health_value_segment,$50-$99,television,Television,3,1464,1513330,1513330,151,152661,10.1
+Chapter 3,health_value_segment,$50-$99,online,Online,4,1464,1513330,1513330,425,459472,30.4
+Chapter 3,health_value_segment,$50-$99,own_initiative,On own initiative,5,1464,1513330,1513330,448,435000,28.7
+Chapter 3,health_value_segment,$50-$99,charity_event,Charity event,6,1464,1513330,1513330,368,352153,23.3
+Chapter 3,health_value_segment,$50-$99,in_memory,In memory of someone,7,1464,1513330,1513330,717,704572,46.6
+Chapter 3,health_value_segment,$50-$99,work,Work,8,1464,1513330,1513330,417,413502,27.3
+Chapter 3,health_value_segment,$50-$99,door_to_door,Door-to-door canvassing,9,1464,1513330,1513330,300,253756,16.8
+Chapter 3,health_value_segment,$50-$99,shopping_centre,Shopping centre,10,1464,1513330,1513330,591,592452,39.1
+Chapter 3,health_value_segment,$50-$99,place_of_worship,Place of worship,11,1464,1513330,1513330,498,435494,28.8
+Chapter 3,health_value_segment,$50-$99,sponsoring_someone,Sponsoring someone,12,1464,1513330,1513330,606,572072,37.8
+Chapter 3,health_value_segment,$50-$99,other,Other,13,1464,1513330,1513330,121,128681,8.5
+Chapter 3,health_value_segment,$100-$249,mail,Mail,1,1757,1872990,1872990,758,700545,37.4
+Chapter 3,health_value_segment,$100-$249,telephone,Telephone,2,1757,1872990,1872990,242,221173,11.8
+Chapter 3,health_value_segment,$100-$249,television,Television,3,1757,1872990,1872990,221,201636,10.8
+Chapter 3,health_value_segment,$100-$249,online,Online,4,1757,1872990,1872990,623,651225,34.8
+Chapter 3,health_value_segment,$100-$249,own_initiative,On own initiative,5,1757,1872990,1872990,633,682332,36.4
+Chapter 3,health_value_segment,$100-$249,charity_event,Charity event,6,1757,1872990,1872990,469,454145,24.2
+Chapter 3,health_value_segment,$100-$249,in_memory,In memory of someone,7,1757,1872990,1872990,927,940808,50.2
+Chapter 3,health_value_segment,$100-$249,work,Work,8,1757,1872990,1872990,502,526873,28.1
+Chapter 3,health_value_segment,$100-$249,door_to_door,Door-to-door canvassing,9,1757,1872990,1872990,312,288547,15.4
+Chapter 3,health_value_segment,$100-$249,shopping_centre,Shopping centre,10,1757,1872990,1872990,693,729505,38.9
+Chapter 3,health_value_segment,$100-$249,place_of_worship,Place of worship,11,1757,1872990,1872990,581,503959,26.9
+Chapter 3,health_value_segment,$100-$249,sponsoring_someone,Sponsoring someone,12,1757,1872990,1872990,774,766921,40.9
+Chapter 3,health_value_segment,$100-$249,other,Other,13,1757,1872990,1872990,165,158000,8.4
+Chapter 3,health_value_segment,$250-$999,mail,Mail,1,844,894043,894043,430,420451,47.0
+Chapter 3,health_value_segment,$250-$999,telephone,Telephone,2,844,894043,894043,157,148218,16.6
+Chapter 3,health_value_segment,$250-$999,television,Television,3,844,894043,894043,98,91222,10.2
+Chapter 3,health_value_segment,$250-$999,online,Online,4,844,894043,894043,349,366936,41.0
+Chapter 3,health_value_segment,$250-$999,own_initiative,On own initiative,5,844,894043,894043,408,427677,47.8
+Chapter 3,health_value_segment,$250-$999,charity_event,Charity event,6,844,894043,894043,269,264988,29.6
+Chapter 3,health_value_segment,$250-$999,in_memory,In memory of someone,7,844,894043,894043,457,470102,52.6
+Chapter 3,health_value_segment,$250-$999,work,Work,8,844,894043,894043,228,251512,28.1
+Chapter 3,health_value_segment,$250-$999,door_to_door,Door-to-door canvassing,9,844,894043,894043,148,167983,18.8
+Chapter 3,health_value_segment,$250-$999,shopping_centre,Shopping centre,10,844,894043,894043,305,330436,37.0
+Chapter 3,health_value_segment,$250-$999,place_of_worship,Place of worship,11,844,894043,894043,293,292320,32.7
+Chapter 3,health_value_segment,$250-$999,sponsoring_someone,Sponsoring someone,12,844,894043,894043,385,391574,43.8
+Chapter 3,health_value_segment,$250-$999,other,Other,13,844,894043,894043,114,122247,13.7
+Chapter 3,health_value_segment,"$1,000+",mail,Mail,1,195,202490,202490,77,71882,35.5
+Chapter 3,health_value_segment,"$1,000+",telephone,Telephone,2,195,202490,202490,24,24178,11.9
+Chapter 3,health_value_segment,"$1,000+",television,Television,3,195,202490,202490,22,17244,8.5
+Chapter 3,health_value_segment,"$1,000+",online,Online,4,195,202490,202490,76,77567,38.3
+Chapter 3,health_value_segment,"$1,000+",own_initiative,On own initiative,5,195,202490,202490,122,123040,60.8
+Chapter 3,health_value_segment,"$1,000+",charity_event,Charity event,6,195,202490,202490,69,62963,31.1
+Chapter 3,health_value_segment,"$1,000+",in_memory,In memory of someone,7,195,202490,202490,101,106788,52.7
+Chapter 3,health_value_segment,"$1,000+",work,Work,8,195,202490,202490,63,70091,34.6
+Chapter 3,health_value_segment,"$1,000+",door_to_door,Door-to-door canvassing,9,195,202490,202490,26,23285,11.5
+Chapter 3,health_value_segment,"$1,000+",shopping_centre,Shopping centre,10,195,202490,202490,64,72610,35.9
+Chapter 3,health_value_segment,"$1,000+",place_of_worship,Place of worship,11,195,202490,202490,64,59642,29.5
+Chapter 3,health_value_segment,"$1,000+",sponsoring_someone,Sponsoring someone,12,195,202490,202490,96,92570,45.7
+Chapter 3,health_value_segment,"$1,000+",other,Other,13,195,202490,202490,32,28641,14.1

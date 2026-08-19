@@ -1,0 +1,79 @@
+table tbl_page1_donation_amount_bands
+	lineageTag: 96364959-0077-4747-8f1b-40424baee03b
+
+	column amount_band
+		dataType: string
+		lineageTag: 9e03bb37-83ff-4de8-b0bf-a14db74136fd
+		summarizeBy: none
+		sourceColumn: amount_band
+
+		annotation SummarizationSetBy = Automatic
+
+	column donor_sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 4fa95d42-849d-4bc2-b830-7be0a547c98c
+		summarizeBy: sum
+		sourceColumn: donor_sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: b7b0b62e-65ff-4932-9e6f-2561c0800f11
+		summarizeBy: sum
+		sourceColumn: weighted_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_donor_share_pct
+		dataType: double
+		lineageTag: 546ea98f-abcf-425f-a278-d77a9a9786ba
+		summarizeBy: sum
+		sourceColumn: weighted_donor_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_total_donations
+		dataType: int64
+		formatString: 0
+		lineageTag: ecc47197-509a-4c5d-9d6b-82ad9a813ab7
+		summarizeBy: sum
+		sourceColumn: weighted_total_donations
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_dollar_share_pct
+		dataType: double
+		lineageTag: d6bba251-aadf-43ea-a406-f30e5a4fa078
+		summarizeBy: sum
+		sourceColumn: weighted_dollar_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 10139ec7-0d43-4c6d-a686-2c31719d3837
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page1_donation_amount_bands = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page1_donation_amount_bands_Table = Source{[Item="tbl_page1_donation_amount_bands",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page1_donation_amount_bands_Table,{{"amount_band", type text}, {"donor_sample_n", Int64.Type}, {"weighted_donors", Int64.Type}, {"weighted_donor_share_pct", type number}, {"weighted_total_donations", Int64.Type}, {"weighted_dollar_share_pct", type number}, {"sort_order", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,5 @@
+comparison_group,sample_n,weighted_population,sample_volunteer_n,weighted_volunteers,weighted_volunteering_valid_denominator,weighted_volunteer_rate_pct,sample_fundraising_volunteer_n,weighted_fundraising_volunteers,weighted_fundraising_valid_denominator,weighted_fundraising_volunteer_rate_pct,sample_healthcare_support_volunteer_n,weighted_healthcare_support_volunteers,weighted_healthcare_support_valid_denominator,weighted_healthcare_support_volunteer_rate_pct,volunteer_sample_n_with_hours,weighted_mean_volunteer_hours_among_volunteers,weighted_median_volunteer_hours_among_volunteers
+Health donors,6399,6797272,3534,3013187,6797272,44.3,1497,1287597,6754584,19.1,809,660621,6746280,9.8,3534,123.73,42.0
+Non-Health donors,9535,10935802,4593,4149867,10935802,37.9,1505,1403360,10903465,12.9,809,727913,10892017,6.7,4593,116.51,39.0
+Non-donors,10744,15305600,3225,3618719,15305600,23.6,878,985984,15286878,6.4,471,484102,15281326,3.2,3225,94.74,30.0
+All charitable donors,15934,17733073,8127,7163055,17733073,40.4,3002,2690957,17658049,15.2,1618,1388534,17638297,7.9,8127,119.55,40.0

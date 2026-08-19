@@ -1,0 +1,119 @@
+table tbl_page4_motivation_by_health_value
+	lineageTag: 1106ccf6-8e57-4f3f-a05f-ba65a2ce29f8
+
+	column chapter
+		dataType: string
+		lineageTag: 34fbc70f-c430-43d2-96da-f8813cab9e92
+		summarizeBy: none
+		sourceColumn: chapter
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_variable
+		dataType: string
+		lineageTag: 794e09d5-a8a1-40bd-87a3-5b1bd5484a79
+		summarizeBy: none
+		sourceColumn: segment_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_label
+		dataType: string
+		lineageTag: 42a2dabd-f0d7-4ee2-9d57-27638551ba7e
+		summarizeBy: none
+		sourceColumn: segment_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column motivation_variable
+		dataType: string
+		lineageTag: 0396ce6b-e8a8-44d4-bdad-49d571c877aa
+		summarizeBy: none
+		sourceColumn: motivation_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column motivation_label
+		dataType: string
+		lineageTag: ea554ccb-2460-4531-a8cc-9e4c7089fccd
+		summarizeBy: none
+		sourceColumn: motivation_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 64d66c13-b471-4ebd-980d-c2902717b140
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_health_donor_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 6c7a830b-5315-44d8-80e6-5f7245a010ef
+		summarizeBy: sum
+		sourceColumn: sample_health_donor_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: ab2b75f0-3d55-4476-b65e-7add9554dba6
+		summarizeBy: sum
+		sourceColumn: weighted_health_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column valid_denominator_weighted
+		dataType: int64
+		formatString: 0
+		lineageTag: 007aa994-ba9b-48a9-b5fc-ea76e5b7c6ff
+		summarizeBy: sum
+		sourceColumn: valid_denominator_weighted
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_yes_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 45fda89b-1d7a-49ca-946e-8ca0c6294863
+		summarizeBy: sum
+		sourceColumn: sample_yes_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_yes
+		dataType: int64
+		formatString: 0
+		lineageTag: 2d71a758-0bd5-4cf4-9b54-c65234250971
+		summarizeBy: sum
+		sourceColumn: weighted_yes
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_yes_pct
+		dataType: double
+		lineageTag: 8d760a30-75fc-402c-bd09-eb0fd02d5464
+		summarizeBy: sum
+		sourceColumn: weighted_yes_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tbl_page4_motivation_by_health_value = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page4_motivation_by_health_value_Table = Source{[Item="tbl_page4_motivation_by_health_value",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page4_motivation_by_health_value_Table,{{"chapter", type text}, {"segment_variable", type text}, {"segment_label", type text}, {"motivation_variable", type text}, {"motivation_label", type text}, {"sort_order", Int64.Type}, {"sample_health_donor_n", Int64.Type}, {"weighted_health_donors", Int64.Type}, {"valid_denominator_weighted", Int64.Type}, {"sample_yes_n", Int64.Type}, {"weighted_yes", Int64.Type}, {"weighted_yes_pct", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

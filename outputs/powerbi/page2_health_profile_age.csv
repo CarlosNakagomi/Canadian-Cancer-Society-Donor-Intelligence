@@ -1,0 +1,8 @@
+segment_variable,segment_code,segment_label,sort_order,sample_n,weighted_population,sample_charitable_donor_n,weighted_charitable_donors,weighted_charitable_donor_rate_pct,sample_health_donor_n,weighted_health_donors,weighted_health_donor_rate_population_pct,weighted_health_donor_rate_among_donors_pct,weighted_health_donor_composition_pct,weighted_mean_health_donation,weighted_median_health_donation,weighted_mean_total_giving_health_donors,weighted_median_total_giving_health_donors,weighted_mean_total_giving_nonhealth_donors,weighted_median_total_giving_nonhealth_donors
+AGEGR10,1,15 to 24 years,1,2642,4780472,867,1484748,31.1,179,324765,6.8,21.9,4.8,68.01,30.0,207.55,80.0,189.32,50.0
+AGEGR10,2,25 to 34 years,2,3202,5596013,1639,2729965,48.8,446,766435,13.7,28.1,11.3,165.52,50.0,422.72,130.0,517.57,80.0
+AGEGR10,3,35 to 44 years,3,4309,5402303,2581,2979177,55.1,844,981826,18.2,33.0,14.4,206.38,50.0,876.72,220.0,591.95,120.0
+AGEGR10,4,45 to 54 years,4,4204,4765959,2644,2793874,58.6,993,1070676,22.5,38.3,15.8,340.92,50.0,955.44,250.0,730.95,130.0
+AGEGR10,5,55 to 64 years,5,4877,5101313,3131,3047565,59.7,1408,1353573,26.5,44.4,19.9,289.52,90.0,1116.16,260.0,730.0,130.0
+AGEGR10,6,65 to 74 years,6,4644,4266030,3111,2615425,61.3,1565,1292102,30.3,49.4,19.0,181.33,80.0,1051.88,290.0,852.0,140.0
+AGEGR10,7,75 years and over,7,2800,3126583,1961,2082320,66.6,964,1007895,32.2,48.4,14.8,446.85,90.0,1220.57,360.0,865.99,190.0

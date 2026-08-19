@@ -1,0 +1,5 @@
+segment_variable,segment_code,segment_label,sort_order,sample_n,weighted_population,sample_charitable_donor_n,weighted_charitable_donors,weighted_charitable_donor_rate_pct,sample_health_donor_n,weighted_health_donors,weighted_health_donor_rate_population_pct,weighted_health_donor_rate_among_donors_pct,weighted_health_donor_composition_pct,weighted_mean_health_donation,weighted_median_health_donation,weighted_mean_total_giving_health_donors,weighted_median_total_giving_health_donors,weighted_mean_total_giving_nonhealth_donors,weighted_median_total_giving_nonhealth_donors
+ED4CAT,1,Less than high school,1,2703,4046313,1121,1539886,38.1,387,522028,12.9,33.9,7.7,119.25,50.0,366.46,130.0,339.7,50.0
+ED4CAT,2,Graduated from high school,2,5562,8794220,2895,4150740,47.2,1152,1507376,17.1,36.3,22.2,147.27,50.0,654.7,180.0,404.46,90.0
+ED4CAT,3,Post-secondary diploma,3,7954,9987736,4919,5670198,56.8,2109,2327599,23.3,41.0,34.2,163.69,50.0,729.54,200.0,530.73,100.0
+ED4CAT,4,University diploma,4,8731,8342706,6135,5507511,66.0,2393,2081415,24.9,37.8,30.6,366.58,100.0,1339.51,300.0,983.09,180.0

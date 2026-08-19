@@ -1,0 +1,134 @@
+table tbl_page1_canadian_donor_segments
+	lineageTag: f5eb1b07-660f-49b2-baa8-6088721529bd
+
+	column segment_variable
+		dataType: string
+		lineageTag: 905d02ad-e14c-4223-8579-43c26ae8b8db
+		summarizeBy: none
+		sourceColumn: segment_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment
+		dataType: string
+		lineageTag: 525055dd-94d3-45cd-b32f-a58962e70a78
+		summarizeBy: none
+		sourceColumn: segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: f7ba8aae-b5e9-46c7-9064-3780e261269c
+		summarizeBy: sum
+		sourceColumn: sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_population
+		dataType: int64
+		formatString: 0
+		lineageTag: 97aa617e-cee3-4942-b052-a61f720ee33f
+		summarizeBy: sum
+		sourceColumn: weighted_population
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_donor_rate_pct
+		dataType: double
+		lineageTag: 5cd2f9a4-8a1e-4b9e-89de-cbe7103a08f2
+		summarizeBy: sum
+		sourceColumn: sample_donor_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_donor_rate_pct
+		dataType: double
+		lineageTag: 356115da-eb44-43e9-9bdc-39ddb55e5f28
+		summarizeBy: sum
+		sourceColumn: weighted_donor_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column donor_sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: d186a207-3e70-4df1-a44a-7f8c475ad1dd
+		summarizeBy: sum
+		sourceColumn: donor_sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 11015b34-5a44-49f7-b5c7-571176dd412a
+		summarizeBy: sum
+		sourceColumn: weighted_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_mean_donation
+		dataType: double
+		lineageTag: a07c8246-42f0-4efe-992a-bc93adb28fd5
+		summarizeBy: sum
+		sourceColumn: weighted_mean_donation
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_donation
+		dataType: int64
+		formatString: 0
+		lineageTag: 0304c7a9-d884-4b19-a1ff-cf150bf407c9
+		summarizeBy: sum
+		sourceColumn: weighted_median_donation
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_mean_frequency
+		dataType: double
+		lineageTag: 6194129f-9d07-4947-bde5-fe4b973bc55c
+		summarizeBy: sum
+		sourceColumn: weighted_mean_frequency
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_frequency
+		dataType: int64
+		formatString: 0
+		lineageTag: 15bcfae4-a8bd-4e4c-ac3b-a090904dc2ae
+		summarizeBy: sum
+		sourceColumn: weighted_median_frequency
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: da269349-4eb3-4264-a552-09b449b39679
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page1_canadian_donor_segments = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page1_canadian_donor_segments_Table = Source{[Item="tbl_page1_canadian_donor_segments",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page1_canadian_donor_segments_Table,{{"segment_variable", type text}, {"segment", type text}, {"sample_n", Int64.Type}, {"weighted_population", Int64.Type}, {"sample_donor_rate_pct", type number}, {"weighted_donor_rate_pct", type number}, {"donor_sample_n", Int64.Type}, {"weighted_donors", Int64.Type}, {"weighted_mean_donation", type number}, {"weighted_median_donation", Int64.Type}, {"weighted_mean_frequency", type number}, {"weighted_median_frequency", Int64.Type}, {"sort_order", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

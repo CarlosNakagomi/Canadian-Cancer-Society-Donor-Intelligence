@@ -1,0 +1,67 @@
+chapter,comparison_group,barrier_variable,barrier_label,barrier_category,applicability,sort_order,sample_group_n,weighted_group_population,valid_denominator_weighted,sample_yes_n,weighted_yes,weighted_yes_pct,health_vs_nonhealth_gap_pct_points
+Chapter 5,Health donors,NG_020,Already gave enough,Current giving satisfied,Core,1,6399,6797272,6353150,4580,4759395,74.9,9.400000000000006
+Chapter 5,Non-Health donors,NG_020,Already gave enough,Current giving satisfied,Core,1,9535,10935802,10283171,6100,6739954,65.5,9.400000000000006
+Chapter 5,Non-donors,NG_020,Already gave enough,Current giving satisfied,Core,1,10744,15305600,0,0,0,,9.400000000000006
+Chapter 5,Health donors,NG_030,Could not afford a larger donation,Financial,Core,2,6399,6797272,5434363,3204,3580733,65.9,-3.3999999999999915
+Chapter 5,Non-Health donors,NG_030,Could not afford a larger donation,Financial,Core,2,9535,10935802,9331784,5231,6467062,69.3,-3.3999999999999915
+Chapter 5,Non-donors,NG_030,Could not afford a larger donation,Financial,Core,2,10744,15305600,0,0,0,,-3.3999999999999915
+Chapter 5,Health donors,NG_040,No one asked,Solicitation/opportunity,Core,3,6399,6797272,5282614,1166,1302311,24.7,-2.400000000000002
+Chapter 5,Non-Health donors,NG_040,No one asked,Solicitation/opportunity,Core,3,9535,10935802,9140254,2022,2478176,27.1,-2.400000000000002
+Chapter 5,Non-donors,NG_040,No one asked,Solicitation/opportunity,Core,3,10744,15305600,0,0,0,,-2.400000000000002
+Chapter 5,Health donors,NG_050,Did not know where to make other donations,Information/access,Core,4,6399,6797272,5276823,438,451499,8.6,-3.700000000000001
+Chapter 5,Non-Health donors,NG_050,Did not know where to make other donations,Information/access,Core,4,9535,10935802,9102169,885,1116177,12.3,-3.700000000000001
+Chapter 5,Non-donors,NG_050,Did not know where to make other donations,Information/access,Core,4,10744,15305600,0,0,0,,-3.700000000000001
+Chapter 5,Health donors,NG_060,Hard to find a cause,Information/access,Core,5,6399,6797272,5245542,362,424027,8.1,-4.5
+Chapter 5,Non-Health donors,NG_060,Hard to find a cause,Information/access,Core,5,9535,10935802,9102695,932,1149862,12.6,-4.5
+Chapter 5,Non-donors,NG_060,Hard to find a cause,Information/access,Core,5,10744,15305600,0,0,0,,-4.5
+Chapter 5,Health donors,NG_070,Gave time instead,Alternative contribution,Core,6,6399,6797272,5258175,1061,1097251,20.9,-2.6000000000000014
+Chapter 5,Non-Health donors,NG_070,Gave time instead,Alternative contribution,Core,6,9535,10935802,9080924,1888,2133027,23.5,-2.6000000000000014
+Chapter 5,Non-donors,NG_070,Gave time instead,Alternative contribution,Core,6,10744,15305600,0,0,0,,-2.6000000000000014
+Chapter 5,Health donors,NG_080,Gave directly to people,Alternative contribution,Core,7,6399,6797272,5271952,1858,1934345,36.7,2.700000000000003
+Chapter 5,Non-Health donors,NG_080,Gave directly to people,Alternative contribution,Core,7,9535,10935802,9102179,2725,3091661,34.0,2.700000000000003
+Chapter 5,Non-donors,NG_080,Gave directly to people,Alternative contribution,Core,7,10744,15305600,0,0,0,,2.700000000000003
+Chapter 5,Health donors,NG_090,Tax credit not enough incentive,Incentive,Core,8,6399,6797272,6130656,1107,1112592,18.1,4.300000000000001
+Chapter 5,Non-Health donors,NG_090,Tax credit not enough incentive,Incentive,Core,8,9535,10935802,10079639,1337,1394606,13.8,4.300000000000001
+Chapter 5,Non-donors,NG_090,Tax credit not enough incentive,Incentive,Core,8,10744,15305600,0,0,0,,4.300000000000001
+Chapter 5,Health donors,NG_110,Money would not be used efficiently,Trust/efficiency,Core,9,6399,6797272,6135255,1202,1240152,20.2,2.0
+Chapter 5,Non-Health donors,NG_110,Money would not be used efficiently,Trust/efficiency,Core,9,9535,10935802,10079397,1599,1829956,18.2,2.0
+Chapter 5,Non-donors,NG_110,Money would not be used efficiently,Trust/efficiency,Core,9,10744,15305600,0,0,0,,2.0
+Chapter 5,Health donors,NG_130,Did not like way requests were made,Solicitation concern,Core,10,6399,6797272,5264132,975,979502,18.6,3.8000000000000007
+Chapter 5,Non-Health donors,NG_130,Did not like way requests were made,Solicitation concern,Core,10,9535,10935802,9078572,1236,1339605,14.8,3.8000000000000007
+Chapter 5,Non-donors,NG_130,Did not like way requests were made,Solicitation concern,Core,10,10744,15305600,0,0,0,,3.8000000000000007
+Chapter 5,Health donors,NG_150,So many organizations,Choice overload,Core,11,6399,6797272,6448618,3594,3877635,60.1,0.3999999999999986
+Chapter 5,Non-Health donors,NG_150,So many organizations,Choice overload,Core,11,9535,10935802,10416316,5358,6217881,59.7,0.3999999999999986
+Chapter 5,Non-donors,NG_150,So many organizations,Choice overload,Core,11,10744,15305600,14184741,6405,9042532,63.7,0.3999999999999986
+Chapter 5,Health donors,NG_160,Charity fraud,Trust/efficiency,Core,12,6399,6797272,6456313,4596,4844575,75.0,0.9000000000000057
+Chapter 5,Non-Health donors,NG_160,Charity fraud,Trust/efficiency,Core,12,9535,10935802,10471594,6819,7763663,74.1,0.9000000000000057
+Chapter 5,Non-donors,NG_160,Charity fraud,Trust/efficiency,Core,12,10744,15305600,14311750,7782,11036874,77.1,0.9000000000000057
+Chapter 5,Health donors,NG_120A,Not efficient - Fundraising,Trust/efficiency detail,Follow-up to NG_110,13,6399,6797272,1204199,546,527144,43.8,
+Chapter 5,Non-Health donors,NG_120A,Not efficient - Fundraising,Trust/efficiency detail,Follow-up to NG_110,13,9535,10935802,1741402,546,543845,31.2,
+Chapter 5,Non-donors,NG_120A,Not efficient - Fundraising,Trust/efficiency detail,Follow-up to NG_110,13,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_120B,Not efficient - Impact,Trust/efficiency detail,Follow-up to NG_110,14,6399,6797272,1204199,389,417306,34.7,
+Chapter 5,Non-Health donors,NG_120B,Not efficient - Impact,Trust/efficiency detail,Follow-up to NG_110,14,9535,10935802,1741402,531,582407,33.4,
+Chapter 5,Non-donors,NG_120B,Not efficient - Impact,Trust/efficiency detail,Follow-up to NG_110,14,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_120C,Not efficient - Explanation,Trust/efficiency detail,Follow-up to NG_110,15,6399,6797272,1204199,555,596425,49.5,
+Chapter 5,Non-Health donors,NG_120C,Not efficient - Explanation,Trust/efficiency detail,Follow-up to NG_110,15,9535,10935802,1741402,809,942153,54.1,
+Chapter 5,Non-donors,NG_120C,Not efficient - Explanation,Trust/efficiency detail,Follow-up to NG_110,15,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_120D,Not efficient - Other,Trust/efficiency detail,Follow-up to NG_110,16,6399,6797272,1204199,561,626188,52.0,
+Chapter 5,Non-Health donors,NG_120D,Not efficient - Other,Trust/efficiency detail,Follow-up to NG_110,16,9535,10935802,1741402,737,868617,49.9,
+Chapter 5,Non-donors,NG_120D,Not efficient - Other,Trust/efficiency detail,Follow-up to NG_110,16,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_140A,Requests - Time of day,Solicitation detail,Follow-up to NG_130,17,6399,6797272,973604,247,225687,23.2,
+Chapter 5,Non-Health donors,NG_140A,Requests - Time of day,Solicitation detail,Follow-up to NG_130,17,9535,10935802,1310547,332,381719,29.1,
+Chapter 5,Non-donors,NG_140A,Requests - Time of day,Solicitation detail,Follow-up to NG_130,17,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_140B,Requests - Number,Solicitation detail,Follow-up to NG_130,18,6399,6797272,973604,531,525587,54.0,
+Chapter 5,Non-Health donors,NG_140B,Requests - Number,Solicitation detail,Follow-up to NG_130,18,9535,10935802,1310547,608,667543,50.9,
+Chapter 5,Non-donors,NG_140B,Requests - Number,Solicitation detail,Follow-up to NG_130,18,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_140C,Requests - Tone,Solicitation detail,Follow-up to NG_130,19,6399,6797272,973604,335,361559,37.1,
+Chapter 5,Non-Health donors,NG_140C,Requests - Tone,Solicitation detail,Follow-up to NG_130,19,9535,10935802,1310547,411,484606,37.0,
+Chapter 5,Non-donors,NG_140C,Requests - Tone,Solicitation detail,Follow-up to NG_130,19,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_140D,Requests - Multiple,Solicitation detail,Follow-up to NG_130,20,6399,6797272,973604,560,540460,55.5,
+Chapter 5,Non-Health donors,NG_140D,Requests - Multiple,Solicitation detail,Follow-up to NG_130,20,9535,10935802,1310547,634,696363,53.1,
+Chapter 5,Non-donors,NG_140D,Requests - Multiple,Solicitation detail,Follow-up to NG_130,20,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_140E,Requests - Method,Solicitation detail,Follow-up to NG_130,21,6399,6797272,973604,374,386129,39.7,
+Chapter 5,Non-Health donors,NG_140E,Requests - Method,Solicitation detail,Follow-up to NG_130,21,9535,10935802,1310547,499,546331,41.7,
+Chapter 5,Non-donors,NG_140E,Requests - Method,Solicitation detail,Follow-up to NG_130,21,10744,15305600,0,0,0,,
+Chapter 5,Health donors,NG_140F,Requests - Other reason,Solicitation detail,Follow-up to NG_130,22,6399,6797272,973604,40,42217,4.3,
+Chapter 5,Non-Health donors,NG_140F,Requests - Other reason,Solicitation detail,Follow-up to NG_130,22,9535,10935802,1310547,63,70400,5.4,
+Chapter 5,Non-donors,NG_140F,Requests - Other reason,Solicitation detail,Follow-up to NG_130,22,10744,15305600,0,0,0,,

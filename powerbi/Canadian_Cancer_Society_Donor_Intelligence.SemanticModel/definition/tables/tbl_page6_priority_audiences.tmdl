@@ -1,0 +1,104 @@
+table tbl_page6_priority_audiences
+	lineageTag: e169402a-db5d-4dae-9452-edb5a5534e8e
+
+	column priority_rank
+		dataType: int64
+		formatString: 0
+		lineageTag: ccb6243f-ecd0-4816-95f3-19bbe57c7015
+		summarizeBy: sum
+		sourceColumn: priority_rank
+
+		annotation SummarizationSetBy = Automatic
+
+	column audience_name
+		dataType: string
+		lineageTag: 744e503e-e988-4e0c-afe2-5e4412898d85
+		summarizeBy: none
+		sourceColumn: audience_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column opportunity_type
+		dataType: string
+		lineageTag: ee142389-7540-4036-bc89-a26788f88c03
+		summarizeBy: none
+		sourceColumn: opportunity_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column who_they_are
+		dataType: string
+		lineageTag: 3dcfe074-b6cb-4ed4-af1b-c36bfa96d54b
+		summarizeBy: none
+		sourceColumn: who_they_are
+
+		annotation SummarizationSetBy = Automatic
+
+	column what_the_data_shows
+		dataType: string
+		lineageTag: f70cc2c0-615c-4c00-8d53-9e72c28f46f9
+		summarizeBy: none
+		sourceColumn: what_the_data_shows
+
+		annotation SummarizationSetBy = Automatic
+
+	column why_they_matter
+		dataType: string
+		lineageTag: 4c842077-5926-4d80-9ff9-c24c15b2cc95
+		summarizeBy: none
+		sourceColumn: why_they_matter
+
+		annotation SummarizationSetBy = Automatic
+
+	column how_they_currently_give
+		dataType: string
+		lineageTag: 891b9a75-fd1b-450c-8f6c-0cf5a9748b13
+		summarizeBy: none
+		sourceColumn: how_they_currently_give
+
+		annotation SummarizationSetBy = Automatic
+
+	column what_appears_to_motivate_them
+		dataType: string
+		lineageTag: ade03332-b8e3-4a7f-83cc-9276589c6db5
+		summarizeBy: none
+		sourceColumn: what_appears_to_motivate_them
+
+		annotation SummarizationSetBy = Automatic
+
+	column what_barriers_may_matter
+		dataType: string
+		lineageTag: 6d2d18be-3c08-42d6-8979-93c626646221
+		summarizeBy: none
+		sourceColumn: what_barriers_may_matter
+
+		annotation SummarizationSetBy = Automatic
+
+	column fundraising_approach_supported
+		dataType: string
+		lineageTag: dfa2a868-4c3f-437a-b6ee-4c6dd880b031
+		summarizeBy: none
+		sourceColumn: fundraising_approach_supported
+
+		annotation SummarizationSetBy = Automatic
+
+	column what_data_does_not_allow_us_to_claim
+		dataType: string
+		lineageTag: 21c06567-ae00-42ce-bcee-cb2c42d21d96
+		summarizeBy: none
+		sourceColumn: what_data_does_not_allow_us_to_claim
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page6_priority_audiences = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page6_priority_audiences_Table = Source{[Item="tbl_page6_priority_audiences",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page6_priority_audiences_Table,{{"priority_rank", Int64.Type}, {"audience_name", type text}, {"opportunity_type", type text}, {"who_they_are", type text}, {"what_the_data_shows", type text}, {"why_they_matter", type text}, {"how_they_currently_give", type text}, {"what_appears_to_motivate_them", type text}, {"what_barriers_may_matter", type text}, {"fundraising_approach_supported", type text}, {"what_data_does_not_allow_us_to_claim", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

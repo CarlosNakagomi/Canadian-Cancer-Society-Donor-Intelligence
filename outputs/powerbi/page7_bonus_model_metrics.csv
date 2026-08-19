@@ -1,0 +1,2 @@
+threshold,roc_auc,precision,recall,f1,true_positive,false_positive,true_negative,false_negative,test_sample_n,train_sample_n,test_health_donor_rate,train_health_donor_rate,model
+0.2398522009210667,0.7199719551282051,0.3679141441937259,0.6963541666666667,0.4814548073460569,1337,2297,3787,583,8004,18674,0.239880059970015,0.2398522009210667,Weighted logistic regression with demographic and volunteering predictors

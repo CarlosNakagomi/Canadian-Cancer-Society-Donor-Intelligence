@@ -1,0 +1,1628 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "tbl_page1_donation_amount_bands.amount_band": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page1_donation_amount_bands",
+			          "ConceptualProperty": "amount_band"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donation Amount Band": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_group_comparison.group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_group_comparison",
+			          "ConceptualProperty": "group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donor Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_group_comparison.weighted_population": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_group_comparison",
+			          "ConceptualProperty": "weighted_population"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Weighted Population": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_group_comparison.weighted_health_donor_rate_population_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_group_comparison",
+			          "ConceptualProperty": "weighted_health_donor_rate_population_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Health Donor Rate %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_group_comparison.weighted_mean_total_donation_among_group_donors": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_group_comparison",
+			          "ConceptualProperty": "weighted_mean_total_donation_among_group_donors"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Mean Total Giving": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_evidence_table.evidence_theme": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_evidence_table",
+			          "ConceptualProperty": "evidence_theme"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Evidence Theme": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_evidence_table.metric": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_evidence_table",
+			          "ConceptualProperty": "metric"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Metric": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_evidence_table.interpretation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_evidence_table",
+			          "ConceptualProperty": "interpretation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Interpretation": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_evidence_table.source_chapter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_evidence_table",
+			          "ConceptualProperty": "source_chapter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Source Chapter": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_evidence_table.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_evidence_table",
+			          "ConceptualProperty": "value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Value": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_dim_agegroup.agegroup_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_dim_agegroup",
+			          "ConceptualProperty": "agegroup_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Age Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_dim_incomeband.incomeband_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_dim_incomeband",
+			          "ConceptualProperty": "incomeband_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Income Band": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_dim_province.province_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_dim_province",
+			          "ConceptualProperty": "province_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Province": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_profile_age.segment_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_profile_age",
+			          "ConceptualProperty": "segment_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Segment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_profile_income.segment_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_profile_income",
+			          "ConceptualProperty": "segment_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Segment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_profile_province.segment_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_profile_province",
+			          "ConceptualProperty": "segment_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Segment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_volunteering.comparison_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_volunteering",
+			          "ConceptualProperty": "comparison_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donor Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_volunteering.weighted_volunteer_rate_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_volunteering",
+			          "ConceptualProperty": "weighted_volunteer_rate_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Volunteer Rate %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_volunteering.weighted_fundraising_volunteer_rate_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_volunteering",
+			          "ConceptualProperty": "weighted_fundraising_volunteer_rate_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Fundraising Volunteer Rate %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page2_health_donor_volunteering.weighted_healthcare_support_volunteer_rate_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page2_health_donor_volunteering",
+			          "ConceptualProperty": "weighted_healthcare_support_volunteer_rate_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Healthcare Support Volunteer Rate %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_dim_channel.channel_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_dim_channel",
+			          "ConceptualProperty": "channel_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Channel": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_giving_channel_summary.channel_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_giving_channel_summary",
+			          "ConceptualProperty": "channel_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Channel": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_giving_channel_summary.comparison_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_giving_channel_summary",
+			          "ConceptualProperty": "comparison_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donor Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_measures.channel_donation_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_measures",
+			          "ConceptualProperty": "Channel Donation $"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Channel Donation $": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_giving_behaviour_summary.comparison_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_giving_behaviour_summary",
+			          "ConceptualProperty": "comparison_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donor Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_giving_behaviour_summary.behaviour_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_giving_behaviour_summary",
+			          "ConceptualProperty": "behaviour_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Behaviour": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_giving_behaviour_summary.response_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_giving_behaviour_summary",
+			          "ConceptualProperty": "response_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Response": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_giving_behaviour_summary.weighted_response_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_giving_behaviour_summary",
+			          "ConceptualProperty": "weighted_response_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Weighted Response %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_channel_by_health_value.segment_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_channel_by_health_value",
+			          "ConceptualProperty": "segment_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Segment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_channel_by_health_value.channel_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_channel_by_health_value",
+			          "ConceptualProperty": "channel_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Channel": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_channel_by_health_value.weighted_channel_use_rate_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_channel_by_health_value",
+			          "ConceptualProperty": "weighted_channel_use_rate_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Channel Use Rate %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page3_channel_by_health_value.valid_denominator_weighted": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page3_channel_by_health_value",
+			          "ConceptualProperty": "valid_denominator_weighted"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Valid Weighted Denominator": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_summary.motivation_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_summary",
+			          "ConceptualProperty": "motivation_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Motivation": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_summary.comparison_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_summary",
+			          "ConceptualProperty": "comparison_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donor Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_age.segment_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_age",
+			          "ConceptualProperty": "segment_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Segment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_age.motivation_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_age",
+			          "ConceptualProperty": "motivation_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Motivation": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_age.weighted_yes_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_age",
+			          "ConceptualProperty": "weighted_yes_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Weighted Yes %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_age.valid_denominator_weighted": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_age",
+			          "ConceptualProperty": "valid_denominator_weighted"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Valid Weighted Denominator": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_health_value.segment_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_health_value",
+			          "ConceptualProperty": "segment_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Segment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_health_value.motivation_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_health_value",
+			          "ConceptualProperty": "motivation_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Motivation": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_health_value.weighted_yes_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_health_value",
+			          "ConceptualProperty": "weighted_yes_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Weighted Yes %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page4_motivation_by_health_value.sample_yes_n": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page4_motivation_by_health_value",
+			          "ConceptualProperty": "sample_yes_n"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Sample Yes N": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barrier_summary.barrier_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barrier_summary",
+			          "ConceptualProperty": "barrier_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Barrier": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barrier_summary.comparison_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barrier_summary",
+			          "ConceptualProperty": "comparison_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donor Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barrier_category_summary.barrier_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barrier_category_summary",
+			          "ConceptualProperty": "barrier_category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Barrier Category": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barrier_category_summary.comparison_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barrier_category_summary",
+			          "ConceptualProperty": "comparison_group"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Donor Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barrier_category_summary.strongest_barrier": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barrier_category_summary",
+			          "ConceptualProperty": "strongest_barrier"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Strongest Barrier": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barrier_category_summary.max_weighted_yes_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barrier_category_summary",
+			          "ConceptualProperty": "max_weighted_yes_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Max Weighted Yes %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barriers_by_income.segment_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barriers_by_income",
+			          "ConceptualProperty": "segment_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Segment": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barriers_by_income.barrier_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barriers_by_income",
+			          "ConceptualProperty": "barrier_label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Barrier": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barriers_by_income.weighted_yes_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barriers_by_income",
+			          "ConceptualProperty": "weighted_yes_pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Weighted Yes %": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page5_barriers_by_income.valid_denominator_weighted": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page5_barriers_by_income",
+			          "ConceptualProperty": "valid_denominator_weighted"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Valid Weighted Denominator": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_priority_audiences.priority_rank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_priority_audiences",
+			          "ConceptualProperty": "priority_rank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Rank": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_priority_audiences.audience_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_priority_audiences",
+			          "ConceptualProperty": "audience_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Audience": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_priority_audiences.opportunity_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_priority_audiences",
+			          "ConceptualProperty": "opportunity_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Opportunity Type": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_priority_audiences.what_the_data_shows": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_priority_audiences",
+			          "ConceptualProperty": "what_the_data_shows"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "What the Data Shows": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_priority_audiences.fundraising_approach_supported": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_priority_audiences",
+			          "ConceptualProperty": "fundraising_approach_supported"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Supported Approach": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page6_priority_audiences.what_data_does_not_allow_us_to_claim": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page6_priority_audiences",
+			          "ConceptualProperty": "what_data_does_not_allow_us_to_claim"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "What the Data Does Not Prove": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_model_metrics.model": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_model_metrics",
+			          "ConceptualProperty": "model"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Model": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_model_metrics.precision": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_model_metrics",
+			          "ConceptualProperty": "precision"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Precision": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_model_metrics.recall": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_model_metrics",
+			          "ConceptualProperty": "recall"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Recall": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_model_metrics.f1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_model_metrics",
+			          "ConceptualProperty": "f1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "F1 Score": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_model_metrics.threshold": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_model_metrics",
+			          "ConceptualProperty": "threshold"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Threshold": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_top_model_coefficients.feature": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_top_model_coefficients",
+			          "ConceptualProperty": "feature"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Feature": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_top_model_coefficients.coefficient": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_top_model_coefficients",
+			          "ConceptualProperty": "coefficient"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Coefficient": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_top_model_coefficients.odds_ratio_per_standardized_unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_top_model_coefficients",
+			          "ConceptualProperty": "odds_ratio_per_standardized_unit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Odds Ratio": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page7_bonus_top_model_coefficients.direction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page7_bonus_top_model_coefficients",
+			          "ConceptualProperty": "direction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Direction": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_powerbi_data_manifest.powerbi_file": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_powerbi_data_manifest",
+			          "ConceptualProperty": "powerbi_file"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Power BI Table": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_powerbi_data_manifest.source_file": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_powerbi_data_manifest",
+			          "ConceptualProperty": "source_file"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Source Output": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_powerbi_data_manifest.dashboard_page": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_powerbi_data_manifest",
+			          "ConceptualProperty": "dashboard_page"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Dashboard Page": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_powerbi_data_manifest.table_grain": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_powerbi_data_manifest",
+			          "ConceptualProperty": "table_grain"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Table Grain": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_powerbi_data_manifest.rows": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_powerbi_data_manifest",
+			          "ConceptualProperty": "rows"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Rows": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_powerbi_data_manifest.columns": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_powerbi_data_manifest",
+			          "ConceptualProperty": "columns"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Columns": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page1_canadian_donor_overall.metric": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page1_canadian_donor_overall",
+			          "ConceptualProperty": "metric"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Metric": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page1_canadian_donor_overall.weighted_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page1_canadian_donor_overall",
+			          "ConceptualProperty": "weighted_value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Weighted Value": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page1_canadian_donor_overall.value_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page1_canadian_donor_overall",
+			          "ConceptualProperty": "value_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Value Type": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tbl_page1_canadian_donor_overall.note": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tbl_page1_canadian_donor_overall",
+			          "ConceptualProperty": "note"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Note": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

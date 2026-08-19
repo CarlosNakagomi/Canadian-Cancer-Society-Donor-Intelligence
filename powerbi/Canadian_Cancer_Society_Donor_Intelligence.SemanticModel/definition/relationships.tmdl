@@ -1,0 +1,28 @@
+relationship Rel_dim_province_to_health_province
+	fromColumn: tbl_page2_health_profile_province.segment_label
+	toColumn: tbl_dim_province.province_label
+
+relationship Rel_dim_agegroup_to_health_age
+	fromColumn: tbl_page2_health_profile_age.segment_label
+	toColumn: tbl_dim_agegroup.agegroup_label
+
+relationship Rel_dim_agegroup_to_motivation_age
+	fromColumn: tbl_page4_motivation_by_age.segment_label
+	toColumn: tbl_dim_agegroup.agegroup_label
+
+relationship Rel_dim_incomeband_to_health_income
+	fromColumn: tbl_page2_health_profile_income.segment_label
+	toColumn: tbl_dim_incomeband.incomeband_label
+
+relationship Rel_dim_incomeband_to_barriers_income
+	fromColumn: tbl_page5_barriers_by_income.segment_label
+	toColumn: tbl_dim_incomeband.incomeband_label
+
+relationship Rel_dim_channel_to_channel_summary
+	fromColumn: tbl_page3_giving_channel_summary.channel_label
+	toColumn: tbl_dim_channel.channel_label
+
+relationship Rel_dim_channel_to_channel_by_health
+	fromColumn: tbl_page3_channel_by_health_value.channel_label
+	toColumn: tbl_dim_channel.channel_label
+

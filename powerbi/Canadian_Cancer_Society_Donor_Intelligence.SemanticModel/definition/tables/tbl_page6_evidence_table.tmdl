@@ -1,0 +1,57 @@
+table tbl_page6_evidence_table
+	lineageTag: 89b7e16c-c254-4a5f-bc0f-ec06400dd853
+
+	column evidence_theme
+		dataType: string
+		lineageTag: 2ed055ff-1bb7-457e-a772-6304bbd28d8b
+		summarizeBy: none
+		sourceColumn: evidence_theme
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_chapter
+		dataType: string
+		lineageTag: cffe6e3e-3acb-4277-b505-cbc61f3c41f9
+		summarizeBy: none
+		sourceColumn: source_chapter
+
+		annotation SummarizationSetBy = Automatic
+
+	column metric
+		dataType: string
+		lineageTag: da55d814-23cd-40d4-9cd6-78e814f2c92b
+		summarizeBy: none
+		sourceColumn: metric
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: double
+		lineageTag: e4a87a3b-5bfb-4d5a-a24a-2d99a6ed5ed3
+		summarizeBy: sum
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column interpretation
+		dataType: string
+		lineageTag: 64053f3b-e639-4679-8f13-1a4b4e99d166
+		summarizeBy: none
+		sourceColumn: interpretation
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page6_evidence_table = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page6_evidence_table_Table = Source{[Item="tbl_page6_evidence_table",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page6_evidence_table_Table,{{"evidence_theme", type text}, {"source_chapter", type text}, {"metric", type text}, {"value", type number}, {"interpretation", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

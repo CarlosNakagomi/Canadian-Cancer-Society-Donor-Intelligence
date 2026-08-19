@@ -1,0 +1,52 @@
+table tbl_page1_donation_frequency
+	lineageTag: 834e5daa-e9e9-45ea-9066-0f44e9d7c608
+
+	column donation_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c4c3d9f-06dc-4caf-bf1b-2403fbf51f8d
+		summarizeBy: sum
+		sourceColumn: donation_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column donor_sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: ea5b25d8-09f5-40f8-85e2-0094aacde57e
+		summarizeBy: sum
+		sourceColumn: donor_sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 373f0b01-7190-4bb4-a2bc-89aafcb73ded
+		summarizeBy: sum
+		sourceColumn: weighted_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_donor_share_pct
+		dataType: double
+		lineageTag: c9b730bd-c068-4eaa-ba6c-e5b39bdf17a5
+		summarizeBy: sum
+		sourceColumn: weighted_donor_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tbl_page1_donation_frequency = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page1_donation_frequency_Table = Source{[Item="tbl_page1_donation_frequency",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page1_donation_frequency_Table,{{"donation_count", Int64.Type}, {"donor_sample_n", Int64.Type}, {"weighted_donors", Int64.Type}, {"weighted_donor_share_pct", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

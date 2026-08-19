@@ -1,0 +1,180 @@
+table tbl_page2_health_donor_volunteering
+	lineageTag: ab118918-0e6b-4f56-83b6-ba6e62d9f2ff
+
+	column comparison_group
+		dataType: string
+		lineageTag: b9050d7d-3341-4292-825e-3f15626f6d0e
+		summarizeBy: none
+		sourceColumn: comparison_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 9c47e7bc-9c75-4f4a-9ed9-ef86a47febe2
+		summarizeBy: none
+		sourceColumn: sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_population
+		dataType: int64
+		formatString: 0
+		lineageTag: ec30fc0b-407c-459f-8c7b-3c82923cbbba
+		summarizeBy: sum
+		sourceColumn: weighted_population
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_volunteer_n
+		dataType: int64
+		formatString: 0
+		lineageTag: be2535ae-227e-4d41-84fd-b54b9828c57d
+		summarizeBy: sum
+		sourceColumn: sample_volunteer_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_volunteers
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e742772-47c6-40ee-94f7-76723a27bfdb
+		summarizeBy: sum
+		sourceColumn: weighted_volunteers
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_volunteering_valid_denominator
+		dataType: int64
+		formatString: 0
+		lineageTag: 9a3546eb-e60e-4398-8413-1d8154d56469
+		summarizeBy: sum
+		sourceColumn: weighted_volunteering_valid_denominator
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_volunteer_rate_pct
+		dataType: double
+		lineageTag: 87ec10d3-9edf-43c8-a2d2-66676037ce5e
+		summarizeBy: sum
+		sourceColumn: weighted_volunteer_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sample_fundraising_volunteer_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 81abad75-4fd7-437c-8b25-ac1c3b17cc7a
+		summarizeBy: sum
+		sourceColumn: sample_fundraising_volunteer_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_fundraising_volunteers
+		dataType: int64
+		formatString: 0
+		lineageTag: e2906430-f66b-4113-a1e2-baa456b1314c
+		summarizeBy: sum
+		sourceColumn: weighted_fundraising_volunteers
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_fundraising_valid_denominator
+		dataType: int64
+		formatString: 0
+		lineageTag: 730728e3-2eef-4e21-9f25-cc70f62630ed
+		summarizeBy: sum
+		sourceColumn: weighted_fundraising_valid_denominator
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_fundraising_volunteer_rate_pct
+		dataType: double
+		lineageTag: 26c4083c-9be4-4875-96a2-6e09dff448ef
+		summarizeBy: sum
+		sourceColumn: weighted_fundraising_volunteer_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sample_healthcare_support_volunteer_n
+		dataType: int64
+		formatString: 0
+		lineageTag: cc1c6b67-bba4-416b-81a1-1ea5fb7655a5
+		summarizeBy: sum
+		sourceColumn: sample_healthcare_support_volunteer_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_healthcare_support_volunteers
+		dataType: int64
+		formatString: 0
+		lineageTag: b485802c-19e5-41cd-a25b-bc0d223e2456
+		summarizeBy: sum
+		sourceColumn: weighted_healthcare_support_volunteers
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_healthcare_support_valid_denominator
+		dataType: int64
+		formatString: 0
+		lineageTag: a6168e5e-c887-44c1-9ece-1dc597de4731
+		summarizeBy: sum
+		sourceColumn: weighted_healthcare_support_valid_denominator
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_healthcare_support_volunteer_rate_pct
+		dataType: double
+		lineageTag: 9ba2e805-c68a-48ee-9339-72f23e72ff92
+		summarizeBy: sum
+		sourceColumn: weighted_healthcare_support_volunteer_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column volunteer_sample_n_with_hours
+		dataType: int64
+		formatString: 0
+		lineageTag: 454b5c74-8500-4df5-af91-6e22bb412d9d
+		summarizeBy: sum
+		sourceColumn: volunteer_sample_n_with_hours
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_mean_volunteer_hours_among_volunteers
+		dataType: double
+		lineageTag: 7861865e-27fc-454e-938c-08f4f0d38b4c
+		summarizeBy: sum
+		sourceColumn: weighted_mean_volunteer_hours_among_volunteers
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_volunteer_hours_among_volunteers
+		dataType: int64
+		formatString: 0
+		lineageTag: 345eb3ce-6c44-4442-80f9-ea3ab26389e5
+		summarizeBy: sum
+		sourceColumn: weighted_median_volunteer_hours_among_volunteers
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page2_health_donor_volunteering = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page2_health_donor_volunteering_Table = Source{[Item="tbl_page2_health_donor_volunteering",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page2_health_donor_volunteering_Table,{{"comparison_group", type text}, {"sample_n", Int64.Type}, {"weighted_population", Int64.Type}, {"sample_volunteer_n", Int64.Type}, {"weighted_volunteers", Int64.Type}, {"weighted_volunteering_valid_denominator", Int64.Type}, {"weighted_volunteer_rate_pct", type number}, {"sample_fundraising_volunteer_n", Int64.Type}, {"weighted_fundraising_volunteers", Int64.Type}, {"weighted_fundraising_valid_denominator", Int64.Type}, {"weighted_fundraising_volunteer_rate_pct", type number}, {"sample_healthcare_support_volunteer_n", Int64.Type}, {"weighted_healthcare_support_volunteers", Int64.Type}, {"weighted_healthcare_support_valid_denominator", Int64.Type}, {"weighted_healthcare_support_volunteer_rate_pct", type number}, {"volunteer_sample_n_with_hours", Int64.Type}, {"weighted_mean_volunteer_hours_among_volunteers", type number}, {"weighted_median_volunteer_hours_among_volunteers", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

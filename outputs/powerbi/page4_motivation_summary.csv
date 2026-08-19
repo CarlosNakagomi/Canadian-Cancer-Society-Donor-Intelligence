@@ -1,0 +1,25 @@
+chapter,comparison_group,motivation_variable,motivation_label,sort_order,sample_donor_n,weighted_donors,valid_denominator_weighted,sample_yes_n,weighted_yes,weighted_yes_pct,health_vs_nonhealth_gap_pct_points
+Chapter 4,Health donors,RG_010,Personally affected,1,6399,6797272,6016138,4582,4784618,79.5,26.9
+Chapter 4,Non-Health donors,RG_010,Personally affected,1,9535,10935802,9104132,4363,4787637,52.6,26.9
+Chapter 4,All charitable donors,RG_010,Personally affected,1,15934,17733073,15120270,8945,9572255,63.3,26.9
+Chapter 4,Health donors,RG_020,Tax credit,2,6399,6797272,5869793,2129,1951527,33.2,7.400000000000002
+Chapter 4,Non-Health donors,RG_020,Tax credit,2,9535,10935802,8976762,2367,2314864,25.8,7.400000000000002
+Chapter 4,All charitable donors,RG_020,Tax credit,2,15934,17733073,14846554,4496,4266391,28.7,7.400000000000002
+Chapter 4,Health donors,RG_030,Religious reasons,3,6399,6797272,5824243,1688,1504700,25.8,-8.099999999999998
+Chapter 4,Non-Health donors,RG_030,Religious reasons,3,9535,10935802,8988366,3178,3045838,33.9,-8.099999999999998
+Chapter 4,All charitable donors,RG_030,Religious reasons,3,15934,17733073,14812610,4866,4550539,30.7,-8.099999999999998
+Chapter 4,Health donors,RG_035,Spiritual or other beliefs,4,6399,6797272,5793348,1664,1537597,26.5,-6.5
+Chapter 4,Non-Health donors,RG_035,Spiritual or other beliefs,4,9535,10935802,8941922,2969,2953856,33.0,-6.5
+Chapter 4,All charitable donors,RG_035,Spiritual or other beliefs,4,15934,17733073,14735270,4633,4491453,30.5,-6.5
+Chapter 4,Health donors,RG_040,Belief in the cause,5,6399,6797272,5959232,4956,5156154,86.5,7.099999999999994
+Chapter 4,Non-Health donors,RG_040,Belief in the cause,5,9535,10935802,9108668,6432,7234903,79.4,7.099999999999994
+Chapter 4,All charitable donors,RG_040,Belief in the cause,5,15934,17733073,15067900,11388,12391057,82.2,7.099999999999994
+Chapter 4,Health donors,RG_050,Compassion,6,6399,6797272,5952934,4884,5101110,85.7,3.1000000000000085
+Chapter 4,Non-Health donors,RG_050,Compassion,6,9535,10935802,9103128,6637,7523424,82.6,3.1000000000000085
+Chapter 4,All charitable donors,RG_050,Compassion,6,15934,17733073,15056062,11521,12624533,83.9,3.1000000000000085
+Chapter 4,Health donors,RG_060,Community contribution,7,6399,6797272,5879491,4305,4384124,74.6,2.299999999999997
+Chapter 4,Non-Health donors,RG_060,Community contribution,7,9535,10935802,9013513,5923,6518476,72.3,2.299999999999997
+Chapter 4,All charitable donors,RG_060,Community contribution,7,15934,17733073,14893004,10228,10902600,73.2,2.299999999999997
+Chapter 4,Health donors,RG_070,Asked by someone you know,8,6399,6797272,5865649,2955,3022729,51.5,17.0
+Chapter 4,Non-Health donors,RG_070,Asked by someone you know,8,9535,10935802,8962452,2831,3089384,34.5,17.0
+Chapter 4,All charitable donors,RG_070,Asked by someone you know,8,15934,17733073,14828102,5786,6112113,41.2,17.0

@@ -1,0 +1,79 @@
+table tbl_page2_health_donor_overview
+	lineageTag: cfdf96ad-0d9b-4f59-9db6-9f7aa3d7af59
+
+	column metric
+		dataType: string
+		lineageTag: 401a10e0-bb9f-4fe4-970c-e29964ece638
+		summarizeBy: none
+		sourceColumn: metric
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_value
+		dataType: double
+		lineageTag: 42291d40-7d21-406d-ba8f-b4b0b1695327
+		summarizeBy: sum
+		sourceColumn: sample_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_value
+		dataType: double
+		lineageTag: 5eea0ae2-ebd7-4e64-840e-af9473c2dcfe
+		summarizeBy: sum
+		sourceColumn: weighted_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sample_value_numeric
+		dataType: double
+		lineageTag: ae2db9ad-7fad-40b7-82ef-7e25bc110ff9
+		summarizeBy: sum
+		sourceColumn: sample_value_numeric
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_value_numeric
+		dataType: double
+		lineageTag: 1577fcdf-d370-4c49-b03e-fd3a0af9b716
+		summarizeBy: sum
+		sourceColumn: weighted_value_numeric
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column value_type
+		dataType: string
+		lineageTag: cbd226e9-9668-4197-bcce-2cc878daaac9
+		summarizeBy: none
+		sourceColumn: value_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column note
+		dataType: string
+		lineageTag: 9c3385e0-9337-4bb3-a8dc-a7776cc9fc01
+		summarizeBy: none
+		sourceColumn: note
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page2_health_donor_overview = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page2_health_donor_overview_Table = Source{[Item="tbl_page2_health_donor_overview",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page2_health_donor_overview_Table,{{"metric", type text}, {"sample_value", type number}, {"weighted_value", type number}, {"sample_value_numeric", type number}, {"weighted_value_numeric", type number}, {"value_type", type text}, {"note", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

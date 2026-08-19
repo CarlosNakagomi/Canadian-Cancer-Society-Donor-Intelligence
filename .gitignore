@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and vendored packages
+.venv/
+venv/
+env/
+ENV/
+**/.python_packages/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Local configuration
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+~$*
+*.bak
+
+# Raw/restricted data pending redistribution review
+GVP_DBP_2023.zip
+Chapter 1/data/raw/
+**/data/raw/
+**/data/processed/
+*_scored.csv
+
+# Power BI local/cache artifacts
+**/.pbi/
+*.abf
+localSettings.json
+*.DataModel
+*.Backup
+*.pbix.tmp
+*.pbit.tmp
+
+# Backups and archives
+*.zip
+*_backup_*.zip
+Power_*backup*.zip
+
+# Optional generated exports
+exports/
+reports/generated/
+figures/generated/
+
+**/.platform
+**/cache.abf
+**/localSettings.json
+**/editorSettings.json
+

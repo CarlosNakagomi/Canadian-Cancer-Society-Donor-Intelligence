@@ -1,0 +1,59 @@
+table tbl_page5_barrier_category_summary
+	lineageTag: 71d31502-a3d5-4900-ba9d-db72a59a67c3
+
+	column comparison_group
+		dataType: string
+		lineageTag: c9aaebe5-e8a5-4ec7-8156-833d523a74a8
+		summarizeBy: none
+		sourceColumn: comparison_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column barrier_category
+		dataType: string
+		lineageTag: 476d0b03-0878-46d7-b1f1-894b2cb4a33e
+		summarizeBy: none
+		sourceColumn: barrier_category
+
+		annotation SummarizationSetBy = Automatic
+
+	column mean_weighted_yes_pct
+		dataType: double
+		lineageTag: fd879e91-fd2a-44b4-8950-d569a741408f
+		summarizeBy: sum
+		sourceColumn: mean_weighted_yes_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column max_weighted_yes_pct
+		dataType: double
+		lineageTag: 13815c2c-f0a5-40a2-bf58-1c2a601940e1
+		summarizeBy: sum
+		sourceColumn: max_weighted_yes_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column strongest_barrier
+		dataType: string
+		lineageTag: 9bea9e21-0860-49da-849a-0da77c48d866
+		summarizeBy: none
+		sourceColumn: strongest_barrier
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page5_barrier_category_summary = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page5_barrier_category_summary_Table = Source{[Item="tbl_page5_barrier_category_summary",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page5_barrier_category_summary_Table,{{"comparison_group", type text}, {"barrier_category", type text}, {"mean_weighted_yes_pct", type number}, {"max_weighted_yes_pct", type number}, {"strongest_barrier", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

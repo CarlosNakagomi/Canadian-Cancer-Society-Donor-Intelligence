@@ -1,0 +1,41 @@
+chapter,segment_variable,segment_label,motivation_variable,motivation_label,sort_order,sample_health_donor_n,weighted_health_donors,valid_denominator_weighted,sample_yes_n,weighted_yes,weighted_yes_pct
+Chapter 4,health_value_segment,$0.50-$49,RG_010,Personally affected,1,2139,2314418,1981321,1363,1383971,69.9
+Chapter 4,health_value_segment,$0.50-$49,RG_020,Tax credit,2,2139,2314418,1936303,549,481460,24.9
+Chapter 4,health_value_segment,$0.50-$49,RG_030,Religious reasons,3,2139,2314418,1932658,596,528815,27.4
+Chapter 4,health_value_segment,$0.50-$49,RG_035,Spiritual or other beliefs,4,2139,2314418,1924905,549,510848,26.5
+Chapter 4,health_value_segment,$0.50-$49,RG_040,Belief in the cause,5,2139,2314418,1960452,1580,1647479,84.0
+Chapter 4,health_value_segment,$0.50-$49,RG_050,Compassion,6,2139,2314418,1963719,1591,1674341,85.3
+Chapter 4,health_value_segment,$0.50-$49,RG_060,Community contribution,7,2139,2314418,1936131,1392,1423703,73.5
+Chapter 4,health_value_segment,$0.50-$49,RG_070,Asked by someone you know,8,2139,2314418,1930702,908,886858,45.9
+Chapter 4,health_value_segment,$50-$99,RG_010,Personally affected,1,1464,1513330,1363467,1066,1104935,81.0
+Chapter 4,health_value_segment,$50-$99,RG_020,Tax credit,2,1464,1513330,1332340,506,475915,35.7
+Chapter 4,health_value_segment,$50-$99,RG_030,Religious reasons,3,1464,1513330,1325805,368,322463,24.3
+Chapter 4,health_value_segment,$50-$99,RG_035,Spiritual or other beliefs,4,1464,1513330,1318493,364,333632,25.3
+Chapter 4,health_value_segment,$50-$99,RG_040,Belief in the cause,5,1464,1513330,1352605,1125,1160452,85.8
+Chapter 4,health_value_segment,$50-$99,RG_050,Compassion,6,1464,1513330,1348973,1113,1148361,85.1
+Chapter 4,health_value_segment,$50-$99,RG_060,Community contribution,7,1464,1513330,1337899,949,953238,71.2
+Chapter 4,health_value_segment,$50-$99,RG_070,Asked by someone you know,8,1464,1513330,1335113,724,758553,56.8
+Chapter 4,health_value_segment,$100-$249,RG_010,Personally affected,1,1757,1872990,1673563,1332,1425204,85.2
+Chapter 4,health_value_segment,$100-$249,RG_020,Tax credit,2,1757,1872990,1620928,631,578000,35.7
+Chapter 4,health_value_segment,$100-$249,RG_030,Religious reasons,3,1757,1872990,1592859,449,375990,23.6
+Chapter 4,health_value_segment,$100-$249,RG_035,Spiritual or other beliefs,4,1757,1872990,1589366,452,402567,25.3
+Chapter 4,health_value_segment,$100-$249,RG_040,Belief in the cause,5,1757,1872990,1655317,1375,1432139,86.5
+Chapter 4,health_value_segment,$100-$249,RG_050,Compassion,6,1757,1872990,1649925,1339,1394312,84.5
+Chapter 4,health_value_segment,$100-$249,RG_060,Community contribution,7,1757,1872990,1628043,1205,1234110,75.8
+Chapter 4,health_value_segment,$100-$249,RG_070,Asked by someone you know,8,1757,1872990,1623178,831,878474,54.1
+Chapter 4,health_value_segment,$250-$999,RG_010,Personally affected,1,844,894043,812577,661,703996,86.6
+Chapter 4,health_value_segment,$250-$999,RG_020,Tax credit,2,844,894043,795832,348,328170,41.2
+Chapter 4,health_value_segment,$250-$999,RG_030,Religious reasons,3,844,894043,795132,214,222697,28.0
+Chapter 4,health_value_segment,$250-$999,RG_035,Spiritual or other beliefs,4,844,894043,785419,244,240492,30.6
+Chapter 4,health_value_segment,$250-$999,RG_040,Belief in the cause,5,844,894043,809645,712,748587,92.5
+Chapter 4,health_value_segment,$250-$999,RG_050,Compassion,6,844,894043,807352,683,723696,89.6
+Chapter 4,health_value_segment,$250-$999,RG_060,Community contribution,7,844,894043,795566,611,635127,79.8
+Chapter 4,health_value_segment,$250-$999,RG_070,Asked by someone you know,8,844,894043,794871,403,411903,51.8
+Chapter 4,health_value_segment,"$1,000+",RG_010,Personally affected,1,195,202490,185209,160,166512,89.9
+Chapter 4,health_value_segment,"$1,000+",RG_020,Tax credit,2,195,202490,184389,95,87981,47.7
+Chapter 4,health_value_segment,"$1,000+",RG_030,Religious reasons,3,195,202490,177789,61,54735,30.8
+Chapter 4,health_value_segment,"$1,000+",RG_035,Spiritual or other beliefs,4,195,202490,175166,55,50057,28.6
+Chapter 4,health_value_segment,"$1,000+",RG_040,Belief in the cause,5,195,202490,181213,164,167497,92.4
+Chapter 4,health_value_segment,"$1,000+",RG_050,Compassion,6,195,202490,182964,158,160399,87.7
+Chapter 4,health_value_segment,"$1,000+",RG_060,Community contribution,7,195,202490,181852,148,137945,75.9
+Chapter 4,health_value_segment,"$1,000+",RG_070,Asked by someone you know,8,195,202490,181785,89,86941,47.8

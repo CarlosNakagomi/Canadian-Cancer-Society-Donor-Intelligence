@@ -1,0 +1,69 @@
+table tbl_measures
+	lineageTag: 00000000-0000-0000-0000-000000000051
+
+	measure 'Total Weighted Population' = LOOKUPVALUE(tbl_page1_canadian_donor_overall[weighted_value_numeric], tbl_page1_canadian_donor_overall[metric], "Respondents")
+		formatString: #,0
+		lineageTag: c36afd9f-c819-4f47-9030-b6c37bf0b9cf
+
+	measure 'Total Weighted Donors' = LOOKUPVALUE(tbl_page1_canadian_donor_overall[weighted_value_numeric], tbl_page1_canadian_donor_overall[metric], "Donors")
+		formatString: #,0
+		lineageTag: 3c7c51fe-1431-45ab-8041-d178a236a314
+
+	measure 'Donor Participation Rate' = DIVIDE(LOOKUPVALUE(tbl_page1_canadian_donor_overall[weighted_value_numeric], tbl_page1_canadian_donor_overall[metric], "Donor participation rate"), 100, 0)
+		formatString: 0.00%
+		lineageTag: 9e0b9fbb-ebcc-45d0-802d-2c644257b4b5
+
+	measure 'Health Donor Count' = SUM(tbl_page2_health_donation_distribution[weighted_health_donors])
+		formatString: #,0
+		lineageTag: 67b69af7-e0e5-4213-9158-921e7ac11f8d
+
+	measure 'Health Donor Rate' = DIVIDE([Health Donor Count], [Total Weighted Population], 0)
+		formatString: 0.00%
+		lineageTag: 3681c0d9-7c1f-4b99-aee5-8afebab0a90d
+
+	measure 'Total Weighted Donations' = SUM(tbl_page1_donation_amount_bands[weighted_total_donations])
+		formatString: Currency
+		lineageTag: 642ffa23-4c2e-4db8-97c0-1b6a3c414255
+
+	measure 'Health Share of Donation Dollars' = DIVIDE(SUM(tbl_page2_health_donation_distribution[weighted_health_donation_dollars]), [Total Weighted Donations], 0)
+		formatString: 0.00%
+		lineageTag: 84246ea8-d3a9-47c1-a861-ef4691185c1a
+
+	measure 'Channel Donation $' = CALCULATE(SUM(tbl_page3_giving_channel_summary[weighted_channel_donation_dollars]), tbl_page3_giving_channel_summary[comparison_group] = "All charitable donors")
+		formatString: Currency
+		lineageTag: 5fd047b8-8668-49ea-a81b-d34eeece8611
+
+	measure 'Channel Share %' = DIVIDE([Channel Donation $], [Total Weighted Donations], 0)
+		formatString: 0.00%
+		lineageTag: 0002b5db-7af2-4111-b7ec-dcd4b40b4988
+
+	measure 'Model ROC AUC' = MAX(tbl_page7_bonus_model_metrics[roc_auc])
+		formatString: 0.00
+		lineageTag: d6e9c5bc-d309-45d8-86a0-acdd16d1d6fa
+
+	measure 'Model Test Sample N' = MAX(tbl_page7_bonus_model_metrics[test_sample_n])
+		formatString: #,0
+		lineageTag: 641ba886-c4ff-4b25-a72c-37ff30a799da
+
+	measure 'Selected Province' = SELECTEDVALUE(tbl_dim_province[province_label], "Canada")
+		formatString: General
+		lineageTag: 95666bde-0ac4-4fea-8399-8b4b5078bd7a
+
+	column placeholder
+		dataType: string
+		lineageTag: 00000000-0000-0000-0000-000000000052
+		summarizeBy: none
+		sourceColumn: placeholder
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_measures = m
+		mode: import
+		source =
+				let
+					Source = #table({"placeholder"}, {{"measures placeholder"}})
+				in
+					Source
+
+	annotation PBI_ResultType = Table
+

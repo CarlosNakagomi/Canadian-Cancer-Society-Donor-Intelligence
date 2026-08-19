@@ -1,0 +1,168 @@
+table tbl_page3_giving_channel_summary
+	lineageTag: f67be3d5-d351-4005-bb23-adb2238ade2e
+
+	column chapter
+		dataType: string
+		lineageTag: 315a9a20-b75e-445c-9791-14a84f532c43
+		summarizeBy: none
+		sourceColumn: chapter
+
+		annotation SummarizationSetBy = Automatic
+
+	column comparison_group
+		dataType: string
+		lineageTag: dad443f5-a076-4c2d-bd4e-2fa1c0373ede
+		summarizeBy: none
+		sourceColumn: comparison_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel_key
+		dataType: string
+		lineageTag: 6b19d4e9-56c0-494b-b590-6fc9cd2384e0
+		summarizeBy: none
+		sourceColumn: channel_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel_label
+		dataType: string
+		lineageTag: a9cf4e6d-7527-45a5-a760-9888e7bacaac
+		summarizeBy: none
+		sourceColumn: channel_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 46cf7610-639c-4e4f-8dde-de757c3e5061
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_donor_n
+		dataType: int64
+		formatString: 0
+		lineageTag: daf8deab-23b8-4c59-bf6f-748f5114cb10
+		summarizeBy: sum
+		sourceColumn: sample_donor_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: c8e01074-6088-44b5-bfc4-39663bd3495d
+		summarizeBy: sum
+		sourceColumn: weighted_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column valid_channel_denominator_weighted
+		dataType: int64
+		formatString: 0
+		lineageTag: 2b60feb4-a5f9-4655-9d36-f929564b34f6
+		summarizeBy: sum
+		sourceColumn: valid_channel_denominator_weighted
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_channel_user_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 8718ea12-3f69-453f-b678-06d2be7f5bfe
+		summarizeBy: sum
+		sourceColumn: sample_channel_user_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_channel_users
+		dataType: int64
+		formatString: 0
+		lineageTag: e1ec9289-208a-4ca7-b838-29c5bfbd28b2
+		summarizeBy: sum
+		sourceColumn: weighted_channel_users
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_channel_use_rate_pct
+		dataType: double
+		lineageTag: c0951ad7-1f34-4785-8cfc-ac07e528155e
+		summarizeBy: sum
+		sourceColumn: weighted_channel_use_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_channel_donation_dollars
+		dataType: int64
+		formatString: 0
+		lineageTag: 86fa3a9a-8229-400b-bf89-b0ab38be050f
+		summarizeBy: sum
+		sourceColumn: weighted_channel_donation_dollars
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_mean_channel_donation_among_users
+		dataType: double
+		lineageTag: 8a906809-e59e-44f0-8dc6-aa0943144419
+		summarizeBy: sum
+		sourceColumn: weighted_mean_channel_donation_among_users
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_channel_donation_among_users
+		dataType: int64
+		formatString: 0
+		lineageTag: 9bde4ffe-674f-4fb2-987a-ac5b1f476676
+		summarizeBy: sum
+		sourceColumn: weighted_median_channel_donation_among_users
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_mean_channel_frequency_among_users
+		dataType: double
+		lineageTag: 3cfbb65d-ba58-459f-b00c-b9c3751ddadd
+		summarizeBy: sum
+		sourceColumn: weighted_mean_channel_frequency_among_users
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_channel_frequency_among_users
+		dataType: int64
+		formatString: 0
+		lineageTag: 14874f1f-dd25-4846-80a6-22d3e207552e
+		summarizeBy: sum
+		sourceColumn: weighted_median_channel_frequency_among_users
+
+		annotation SummarizationSetBy = Automatic
+
+	column health_vs_nonhealth_rate_gap_pct_points
+		dataType: double
+		lineageTag: 74401265-144c-4f89-98df-84475a585703
+		summarizeBy: sum
+		sourceColumn: health_vs_nonhealth_rate_gap_pct_points
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tbl_page3_giving_channel_summary = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page3_giving_channel_summary_Table = Source{[Item="tbl_page3_giving_channel_summary",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page3_giving_channel_summary_Table,{{"chapter", type text}, {"comparison_group", type text}, {"channel_key", type text}, {"channel_label", type text}, {"sort_order", Int64.Type}, {"sample_donor_n", Int64.Type}, {"weighted_donors", Int64.Type}, {"valid_channel_denominator_weighted", Int64.Type}, {"sample_channel_user_n", Int64.Type}, {"weighted_channel_users", Int64.Type}, {"weighted_channel_use_rate_pct", type number}, {"weighted_channel_donation_dollars", Int64.Type}, {"weighted_mean_channel_donation_among_users", type number}, {"weighted_median_channel_donation_among_users", Int64.Type}, {"weighted_mean_channel_frequency_among_users", type number}, {"weighted_median_channel_frequency_among_users", Int64.Type}, {"health_vs_nonhealth_rate_gap_pct_points", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

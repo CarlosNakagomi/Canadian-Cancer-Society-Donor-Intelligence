@@ -1,0 +1,21 @@
+table tbl_dim_incomeband
+	lineageTag: 00000000-0000-0000-0000-000000000021
+
+	column incomeband_label
+		dataType: string
+		lineageTag: 00000000-0000-0000-0000-000000000022
+		summarizeBy: none
+		sourceColumn: incomeband_label
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_dim_incomeband = m
+		mode: import
+		source =
+				let
+					Source = #table({"incomeband_label"}, { {"Less than $25,000"}, {"$25,000 to $49,999"}, {"$50,000 to $74,999"}, {"$75,000 to $99,999"}, {"$100,000 to $124,999"}, {"$125,000 and more"} })
+				in
+					Source
+
+	annotation PBI_ResultType = Table
+

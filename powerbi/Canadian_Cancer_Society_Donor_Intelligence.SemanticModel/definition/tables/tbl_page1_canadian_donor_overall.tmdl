@@ -1,0 +1,81 @@
+table tbl_page1_canadian_donor_overall
+	lineageTag: 6046b7d8-b211-48d4-aa17-a51f27a32e2b
+
+	column metric
+		dataType: string
+		lineageTag: 449581d0-f9d8-46da-928a-ce007aa16537
+		summarizeBy: none
+		sourceColumn: metric
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_value
+		dataType: double
+		lineageTag: 92ff0c19-1eda-42c5-9596-60a241c64e11
+		summarizeBy: sum
+		sourceColumn: sample_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_value
+		dataType: double
+		lineageTag: 4a0b8b88-b577-4323-9639-bbd36d51e128
+		summarizeBy: sum
+		sourceColumn: weighted_value
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sample_value_numeric
+		dataType: double
+		lineageTag: 9ca1a5a2-19d4-48bd-928a-633004051cf6
+		summarizeBy: sum
+		sourceColumn: sample_value_numeric
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_value_numeric
+		dataType: double
+		lineageTag: 1297bee8-052a-4e1c-bcc5-46e0ed6a17c7
+		summarizeBy: sum
+		sourceColumn: weighted_value_numeric
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column value_type
+		dataType: string
+		lineageTag: 041298df-3587-4cc8-a583-2f47e106c8d4
+		summarizeBy: none
+		sourceColumn: value_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column note
+		dataType: string
+		lineageTag: e1b81bc5-125f-40f4-b217-c1b59174db5b
+		summarizeBy: none
+		sourceColumn: note
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page1_canadian_donor_overall = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page1_canadian_donor_overall_Table = Source{[Item="tbl_page1_canadian_donor_overall",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page1_canadian_donor_overall_Table,{{"metric", type text}, {"sample_value", type number}, {"weighted_value", type number}, {"sample_value_numeric", type number}, {"weighted_value_numeric", type number}, {"value_type", type text}, {"note", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

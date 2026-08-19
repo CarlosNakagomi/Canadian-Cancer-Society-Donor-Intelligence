@@ -1,0 +1,14 @@
+metric,sample_value,weighted_value,sample_value_numeric,weighted_value_numeric,value_type,note
+Weighted Canadian population represented,26678,33038673,26678.0,33038673.0,count,All respondents
+All charitable donors - Chapter 1 baseline,15934,17733073,15934.0,17733073.0,count,Chapter 1 weighted donor rate: 53.7%
+Health donors,6399,6797272,6399.0,6797272.0,count,Primary Chapter 2 definition: positive valid Health amount or count
+Health donor rate among Canadian population,24.0%,20.6%,24.0,20.6,percentage_points,Denominator: all respondents / weighted Canadian population
+Health donor rate among charitable donors,40.2%,38.3%,40.2,38.3,percentage_points,Denominator: charitable donors only
+Weighted total Health donation dollars,,1793152067,,1793152067.0,dollars,Health ICNPO category only
+Mean Health donation among Health donors,269.75,263.8,269.75,263.8,dollars,Use with median because donations are right-skewed
+Median Health donation among Health donors,60.0,60.0,60.0,60.0,dollars,Preferred central tendency metric
+Mean total charitable giving among Health donors,1114.56,937.92,1114.56,937.92,dollars,All charity giving by Health donors
+Median total charitable giving among Health donors,300.0,230.0,300.0,230.0,dollars,All charity giving by Health donors
+Median Health share of total giving among Health donors,32.0,40.0,32.0,40.0,percentage_points,Health dollars / total charitable dollars
+Hospital donors,3658,4021859,3658.0,4021859.0,count,"Separate ICNPO Hospitals category, not combined into primary Health donor definition"
+Broader health-related donors,8354,9087882,8354.0,9087882.0,count,Secondary derived metric: Health OR Hospitals

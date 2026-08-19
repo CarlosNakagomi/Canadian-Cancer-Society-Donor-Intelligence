@@ -1,0 +1,101 @@
+table tbl_page3_giving_behaviour_summary
+	lineageTag: e6a14008-d35e-475b-ab39-c4d0b6b21c38
+
+	column chapter
+		dataType: string
+		lineageTag: 8427839f-3855-4484-84a0-1eef7e6be1f4
+		summarizeBy: none
+		sourceColumn: chapter
+
+		annotation SummarizationSetBy = Automatic
+
+	column comparison_group
+		dataType: string
+		lineageTag: 0ab3e504-cd2d-4c4e-b149-73fb705956e2
+		summarizeBy: none
+		sourceColumn: comparison_group
+
+		annotation SummarizationSetBy = Automatic
+
+	column behaviour_variable
+		dataType: string
+		lineageTag: ac4c6612-8ca6-4c2f-a12e-000d8fc6ccb0
+		summarizeBy: none
+		sourceColumn: behaviour_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column behaviour_label
+		dataType: string
+		lineageTag: 1d6b9ac7-1156-47c1-afdf-d220a30f21ef
+		summarizeBy: none
+		sourceColumn: behaviour_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column response_code
+		dataType: int64
+		formatString: 0
+		lineageTag: a21c9cda-7cd4-4c5b-8d9d-a5043e8dcd09
+		summarizeBy: sum
+		sourceColumn: response_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column response_label
+		dataType: string
+		lineageTag: e3b19eaa-325d-405e-afd8-9d8965315205
+		summarizeBy: none
+		sourceColumn: response_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: af7a53e5-97b9-4fdf-89f6-9aa923854d6c
+		summarizeBy: sum
+		sourceColumn: sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_population
+		dataType: int64
+		formatString: 0
+		lineageTag: 6ed9c338-81d6-43ab-b5ec-4380d7bd9ae6
+		summarizeBy: sum
+		sourceColumn: weighted_population
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_response_pct
+		dataType: double
+		lineageTag: 2a2ead4e-2adc-4554-ab05-89b4bfacf6ed
+		summarizeBy: sum
+		sourceColumn: weighted_response_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column valid_denominator_weighted
+		dataType: int64
+		formatString: 0
+		lineageTag: d19a2331-2eaa-4825-841d-b6a0f521e612
+		summarizeBy: sum
+		sourceColumn: valid_denominator_weighted
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page3_giving_behaviour_summary = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page3_giving_behaviour_summary_Table = Source{[Item="tbl_page3_giving_behaviour_summary",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page3_giving_behaviour_summary_Table,{{"chapter", type text}, {"comparison_group", type text}, {"behaviour_variable", type text}, {"behaviour_label", type text}, {"response_code", Int64.Type}, {"response_label", type text}, {"sample_n", Int64.Type}, {"weighted_population", Int64.Type}, {"weighted_response_pct", type number}, {"valid_denominator_weighted", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

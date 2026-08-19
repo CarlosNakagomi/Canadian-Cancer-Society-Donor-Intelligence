@@ -1,0 +1,14 @@
+variable_name,role,definition_source,leakage_assessment
+is_health_donor,Target,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,Target derived from Health donation amount/count.
+AGEGR10_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+GENDER2_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+PRV_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+INCG2_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+FAMINCG2_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+ED4CAT_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+MARSTAT_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+HSDSIZEC_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+DLFS_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+FV1FVOL_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+FV_030_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."
+FV_100_label,Predictor,Chapter 2 validated analytical dataset and official SGVP 2023 English codebook references.,"Allowed predictor; does not directly reveal Health donation amount, count, or Health category status."

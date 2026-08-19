@@ -1,0 +1,51 @@
+table tbl_page7_bonus_top_model_coefficients
+	lineageTag: 952bc8b7-4267-40ce-b2e6-4ac1dd4a784a
+
+	column feature
+		dataType: string
+		lineageTag: 071d26a9-a08b-4583-ae71-63591a9ce48e
+		summarizeBy: none
+		sourceColumn: feature
+
+		annotation SummarizationSetBy = Automatic
+
+	column coefficient
+		dataType: double
+		lineageTag: ab98813f-6a7b-492b-9755-af0c986722d8
+		summarizeBy: sum
+		sourceColumn: coefficient
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column odds_ratio_per_standardized_unit
+		dataType: double
+		lineageTag: 03948cbc-528f-4fbc-a705-b29e3a3e5c5c
+		summarizeBy: sum
+		sourceColumn: odds_ratio_per_standardized_unit
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column direction
+		dataType: string
+		lineageTag: 4f8bbd10-0f59-4a7d-9287-1482e1548687
+		summarizeBy: none
+		sourceColumn: direction
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page7_bonus_top_model_coefficients = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page7_bonus_top_model_coefficients_Table = Source{[Item="tbl_page7_bonus_top_model_coefficients",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page7_bonus_top_model_coefficients_Table,{{"feature", type text}, {"coefficient", type number}, {"odds_ratio_per_standardized_unit", type number}, {"direction", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

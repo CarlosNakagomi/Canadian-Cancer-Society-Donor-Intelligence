@@ -1,0 +1,28 @@
+comparison_group,barrier_category,mean_weighted_yes_pct,max_weighted_yes_pct,strongest_barrier
+Health donors,Alternative contribution,28.8,36.7,Gave directly to people
+Health donors,Choice overload,60.1,60.1,So many organizations
+Health donors,Current giving satisfied,74.9,74.9,Already gave enough
+Health donors,Financial,65.9,65.9,Could not afford a larger donation
+Health donors,Incentive,18.1,18.1,Tax credit not enough incentive
+Health donors,Information/access,8.4,8.6,Did not know where to make other donations
+Health donors,Solicitation concern,18.6,18.6,Did not like way requests were made
+Health donors,Solicitation/opportunity,24.7,24.7,No one asked
+Health donors,Trust/efficiency,47.6,75.0,Charity fraud
+Non-Health donors,Alternative contribution,28.8,34.0,Gave directly to people
+Non-Health donors,Choice overload,59.7,59.7,So many organizations
+Non-Health donors,Current giving satisfied,65.5,65.5,Already gave enough
+Non-Health donors,Financial,69.3,69.3,Could not afford a larger donation
+Non-Health donors,Incentive,13.8,13.8,Tax credit not enough incentive
+Non-Health donors,Information/access,12.4,12.6,Hard to find a cause
+Non-Health donors,Solicitation concern,14.8,14.8,Did not like way requests were made
+Non-Health donors,Solicitation/opportunity,27.1,27.1,No one asked
+Non-Health donors,Trust/efficiency,46.2,74.1,Charity fraud
+Non-donors,Alternative contribution,,,
+Non-donors,Choice overload,63.7,63.7,So many organizations
+Non-donors,Current giving satisfied,,,
+Non-donors,Financial,,,
+Non-donors,Incentive,,,
+Non-donors,Information/access,,,
+Non-donors,Solicitation concern,,,
+Non-donors,Solicitation/opportunity,,,
+Non-donors,Trust/efficiency,77.1,77.1,Charity fraud

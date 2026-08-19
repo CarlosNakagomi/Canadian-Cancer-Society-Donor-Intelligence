@@ -1,0 +1,37 @@
+chapter,comparison_group,behaviour_variable,behaviour_label,response_code,response_label,sample_n,weighted_population,weighted_response_pct,valid_denominator_weighted
+Chapter 3,Health donors,FG2A_180,Largest donation decision,1,Decided in advance,2676,2659753,42.7,6234246
+Chapter 3,Health donors,FG2A_180,Largest donation decision,2,Responded to someone asking,1921,2275050,36.5,6234246
+Chapter 3,Health donors,FG2A_180,Largest donation decision,3,Both,1246,1299443,20.8,6234246
+Chapter 3,Non-Health donors,FG2A_180,Largest donation decision,1,Decided in advance,3951,4174065,41.5,10065934
+Chapter 3,Non-Health donors,FG2A_180,Largest donation decision,2,Responded to someone asking,3114,4048013,40.2,10065934
+Chapter 3,Non-Health donors,FG2A_180,Largest donation decision,3,Both,1653,1843856,18.3,10065934
+Chapter 3,Health donors,DG_005,Claimed or intended to claim tax credit,1,Yes,3484,3362111,55.3,6084968
+Chapter 3,Health donors,DG_005,Claimed or intended to claim tax credit,2,No,2292,2722857,44.7,6084968
+Chapter 3,Non-Health donors,DG_005,Claimed or intended to claim tax credit,1,Yes,3884,3908414,41.9,9327196
+Chapter 3,Non-Health donors,DG_005,Claimed or intended to claim tax credit,2,No,4363,5418782,58.1,9327196
+Chapter 3,Health donors,DG_030,Decided in advance how much to give,1,Yes,1247,1183432,19.4,6112240
+Chapter 3,Health donors,DG_030,Decided in advance how much to give,2,No,4554,4928807,80.6,6112240
+Chapter 3,Non-Health donors,DG_030,Decided in advance how much to give,1,Yes,1838,1863242,19.9,9364123
+Chapter 3,Non-Health donors,DG_030,Decided in advance how much to give,2,No,6450,7500882,80.1,9364123
+Chapter 3,Health donors,DG_050,Pattern of organizations supported,1,You always donate to the same organizations,1494,1542349,25.2,6110429
+Chapter 3,Health donors,DG_050,Pattern of organizations supported,2,You vary the organizations to which you donate,1684,1942333,31.8,6110429
+Chapter 3,Health donors,DG_050,Pattern of organizations supported,3,Both,2622,2625747,43.0,6110429
+Chapter 3,Non-Health donors,DG_050,Pattern of organizations supported,1,You always donate to the same organizations,2884,3184936,34.1,9341296
+Chapter 3,Non-Health donors,DG_050,Pattern of organizations supported,2,You vary the organizations to which you donate,2575,3142917,33.6,9341296
+Chapter 3,Non-Health donors,DG_050,Pattern of organizations supported,3,Both,2811,3013443,32.3,9341296
+Chapter 3,Health donors,DG_060,Searched before donating to unfamiliar charity,1,Yes,2132,2245958,36.8,6108055
+Chapter 3,Health donors,DG_060,Searched before donating to unfamiliar charity,2,Sometimes,1866,1987267,32.5,6108055
+Chapter 3,Health donors,DG_060,Searched before donating to unfamiliar charity,3,No,1429,1477886,24.2,6108055
+Chapter 3,Health donors,DG_060,Searched before donating to unfamiliar charity,4,You never consider donating to a charity that you have no...,373,396944,6.5,6108055
+Chapter 3,Non-Health donors,DG_060,Searched before donating to unfamiliar charity,1,Yes,3245,3668512,39.2,9351909
+Chapter 3,Non-Health donors,DG_060,Searched before donating to unfamiliar charity,2,Sometimes,2230,2528479,27.0,9351909
+Chapter 3,Non-Health donors,DG_060,Searched before donating to unfamiliar charity,3,No,2074,2327841,24.9,9351909
+Chapter 3,Non-Health donors,DG_060,Searched before donating to unfamiliar charity,4,You never consider donating to a charity that you have no...,728,827077,8.8,9351909
+Chapter 3,Health donors,DG_080,Knows how to verify registered charity status,1,Yes,2718,2740689,45.0,6096326
+Chapter 3,Health donors,DG_080,Knows how to verify registered charity status,2,No,3065,3355637,55.0,6096326
+Chapter 3,Non-Health donors,DG_080,Knows how to verify registered charity status,1,Yes,3388,3548903,38.0,9331544
+Chapter 3,Non-Health donors,DG_080,Knows how to verify registered charity status,2,No,4870,5782641,62.0,9331544
+Chapter 3,Health donors,DG_090,Knows organizations that monitor charity work,1,Yes,1292,1283097,21.0,6108575
+Chapter 3,Health donors,DG_090,Knows organizations that monitor charity work,2,No,4507,4825478,79.0,6108575
+Chapter 3,Non-Health donors,DG_090,Knows organizations that monitor charity work,1,Yes,1598,1721306,18.4,9340833
+Chapter 3,Non-Health donors,DG_090,Knows organizations that monitor charity work,2,No,6674,7619527,81.6,9340833

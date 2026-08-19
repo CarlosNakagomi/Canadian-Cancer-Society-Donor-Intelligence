@@ -1,0 +1,79 @@
+table tbl_page2_health_donation_distribution
+	lineageTag: c15093a6-e2e2-4b80-a1aa-e136c6250c68
+
+	column amount_band
+		dataType: string
+		lineageTag: 6b7f6b58-b0a5-43f3-b894-b9e5fc89f60d
+		summarizeBy: none
+		sourceColumn: amount_band
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 085aefb1-4de2-4a7d-aa93-f199c700e7e2
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_health_donor_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 41207353-9b25-40e6-8d42-6ff739ededbf
+		summarizeBy: sum
+		sourceColumn: sample_health_donor_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 1c45053e-ce26-4243-ac34-07ec7fd450a0
+		summarizeBy: sum
+		sourceColumn: weighted_health_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_donor_share_pct
+		dataType: double
+		lineageTag: c8dee484-6743-4c89-9fc6-bf0af8c9d7e5
+		summarizeBy: sum
+		sourceColumn: weighted_health_donor_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_health_donation_dollars
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b710bfb-2804-4e1a-8687-36612e7c3a07
+		summarizeBy: sum
+		sourceColumn: weighted_health_donation_dollars
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_dollar_share_pct
+		dataType: double
+		lineageTag: 1f8a86f5-8e84-49a5-8b33-1fe421c64a15
+		summarizeBy: sum
+		sourceColumn: weighted_health_dollar_share_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tbl_page2_health_donation_distribution = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page2_health_donation_distribution_Table = Source{[Item="tbl_page2_health_donation_distribution",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page2_health_donation_distribution_Table,{{"amount_band", type text}, {"sort_order", Int64.Type}, {"sample_health_donor_n", Int64.Type}, {"weighted_health_donors", Int64.Type}, {"weighted_health_donor_share_pct", type number}, {"weighted_health_donation_dollars", Int64.Type}, {"weighted_health_dollar_share_pct", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

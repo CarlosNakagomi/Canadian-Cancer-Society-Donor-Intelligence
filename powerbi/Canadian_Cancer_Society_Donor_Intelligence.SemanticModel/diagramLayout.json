@@ -1,0 +1,451 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 2204.5589929687503,
+            "y": 775.46630535360259
+          },
+          "nodeIndex": "tbl_MANIFEST",
+          "nodeLineageTag": "b2772e22-3049-49b2-aa82-5278be4eddc5",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2488.5589929687503,
+            "y": 775.46630535360259
+          },
+          "nodeIndex": "tbl_page1_canadian_donor_overall",
+          "nodeLineageTag": "6046b7d8-b211-48d4-aa17-a51f27a32e2b",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1298.3271521331926,
+            "y": 313.35315913778732
+          },
+          "nodeIndex": "tbl_page1_canadian_donor_segments",
+          "nodeLineageTag": "f5eb1b07-660f-49b2-baa8-6088721529bd",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1611.1673788369046,
+            "y": 61.095718603729438
+          },
+          "nodeIndex": "tbl_page1_donation_amount_bands",
+          "nodeLineageTag": "96364959-0077-4747-8f1b-40424baee03b",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2772.5589929687503,
+            "y": 811.46630535360259
+          },
+          "nodeIndex": "tbl_page1_donation_frequency",
+          "nodeLineageTag": "834e5daa-e9e9-45ea-9066-0f44e9d7c608",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1867.4205711513412,
+            "y": 367.62091429032171
+          },
+          "nodeIndex": "tbl_page2_health_donation_distribution",
+          "nodeLineageTag": "c15093a6-e2e2-4b80-a1aa-e136c6250c68",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": 349.94575791265061
+          },
+          "nodeIndex": "tbl_page2_health_donor_group_comparison",
+          "nodeLineageTag": "c5580c09-46e0-43e3-ae59-9e4e382fffe0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3056.5589929687503,
+            "y": 775.46630535360259
+          },
+          "nodeIndex": "tbl_page2_health_donor_overview",
+          "nodeLineageTag": "cfdf96ad-0d9b-4f59-9db6-9f7aa3d7af59",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 510.0886432057,
+            "y": 349.89624859712467
+          },
+          "nodeIndex": "tbl_page2_health_donor_volunteering",
+          "nodeLineageTag": "ab118918-0e6b-4f56-83b6-ba6e62d9f2ff",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1577.9838161670596,
+            "y": 666.67303918474158
+          },
+          "nodeIndex": "tbl_page2_health_profile_age",
+          "nodeLineageTag": "718d08fc-6404-40a0-a4a8-4face007c106",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1346.0962292957477,
+            "y": 1048.9851728666069
+          },
+          "nodeIndex": "tbl_page2_health_profile_education",
+          "nodeLineageTag": "31661413-4c53-40a0-a993-1287153628a4",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1291.2568539067988,
+            "y": 692.38946022734081
+          },
+          "nodeIndex": "tbl_page2_health_profile_income",
+          "nodeLineageTag": "a32b1ed6-07e2-4f2b-a109-a8c4ff36b444",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1124.3436483823921,
+            "y": -50
+          },
+          "nodeIndex": "tbl_page2_health_profile_province",
+          "nodeLineageTag": "5c843cbe-8090-46ee-840b-295360816dff",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1970.5589929687503,
+            "y": 682.36442798589667
+          },
+          "nodeIndex": "tbl_page3_channel_by_health_value",
+          "nodeLineageTag": "ad87ddb1-7f77-4805-a96f-6ff535a29d35",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 275.56546636481471,
+            "y": 718.05306907831232
+          },
+          "nodeIndex": "tbl_page3_giving_behaviour_summary",
+          "nodeLineageTag": "e6a14008-d35e-475b-ab39-c4d0b6b21c38",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 927.99719545383141,
+            "y": 989.13460658208282
+          },
+          "nodeIndex": "tbl_page3_giving_channel_summary",
+          "nodeLineageTag": "f67be3d5-d351-4005-bb23-adb2238ade2e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1227.7375479274897,
+            "y": 1416.1173774461454
+          },
+          "nodeIndex": "tbl_page4_motivation_by_age",
+          "nodeLineageTag": "c85c559c-022b-411f-83f3-74e99818ed38",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1519.3265706728939,
+            "y": 1448.9326107072052
+          },
+          "nodeIndex": "tbl_page4_motivation_by_health_value",
+          "nodeLineageTag": "1106ccf6-8e57-4f3f-a05f-ba65a2ce29f8",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 812.508738984047,
+            "y": 621.17814493600952
+          },
+          "nodeIndex": "tbl_page4_motivation_summary",
+          "nodeLineageTag": "d1efd270-ff8c-4106-b01b-7df64a3d4a41",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 232.05510565624559,
+            "y": 85.001008997236113
+          },
+          "nodeIndex": "tbl_page5_barrier_category_summary",
+          "nodeLineageTag": "71d31502-a3d5-4900-ba9d-db72a59a67c3",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 825.73036072111768,
+            "y": 248.94528497375359
+          },
+          "nodeIndex": "tbl_page5_barrier_summary",
+          "nodeLineageTag": "4911e56f-ca78-4331-aad2-c98e948698e0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1865.7890653241543,
+            "y": 1050.3026286405754
+          },
+          "nodeIndex": "tbl_page5_barriers_by_income",
+          "nodeLineageTag": "dd5a4d51-875f-4049-9efd-6f3090b1a603",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3340.5589929687503,
+            "y": 799.46630535360259
+          },
+          "nodeIndex": "tbl_page6_evidence_table",
+          "nodeLineageTag": "89b7e16c-c254-4a5f-bc0f-ec06400dd853",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3624.5589929687503,
+            "y": 749.46630535360259
+          },
+          "nodeIndex": "tbl_page6_priority_audiences",
+          "nodeLineageTag": "e169402a-db5d-4dae-9452-edb5a5534e8e",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3908.5589929687503,
+            "y": 749.46630535360259
+          },
+          "nodeIndex": "tbl_page7_bonus_model_metrics",
+          "nodeLineageTag": "386dd265-d575-4749-9e75-6e10670a75ee",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4192.55899296875,
+            "y": 811.46630535360259
+          },
+          "nodeIndex": "tbl_page7_bonus_top_model_coefficients",
+          "nodeLineageTag": "952bc8b7-4267-40ce-b2e6-4ac1dd4a784a",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4476.55899296875,
+            "y": 775.46630535360259
+          },
+          "nodeIndex": "tbl_powerbi_data_manifest",
+          "nodeLineageTag": "ed36a987-ff9a-478a-b090-7cbe4da9823e",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4710.55899296875,
+            "y": 847.46630535360259
+          },
+          "nodeIndex": "tbl_dim_agegroup",
+          "nodeLineageTag": "00000000-0000-0000-0000-000000000011",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4994.55899296875,
+            "y": 847.46630535360259
+          },
+          "nodeIndex": "tbl_dim_channel",
+          "nodeLineageTag": "00000000-0000-0000-0000-000000000031",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5278.55899296875,
+            "y": 847.46630535360259
+          },
+          "nodeIndex": "tbl_dim_incomeband",
+          "nodeLineageTag": "00000000-0000-0000-0000-000000000021",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5562.55899296875,
+            "y": 847.46630535360259
+          },
+          "nodeIndex": "tbl_dim_province",
+          "nodeLineageTag": "00000000-0000-0000-0000-000000000001",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5846.55899296875,
+            "y": 847.46630535360259
+          },
+          "nodeIndex": "tbl_dim_segment",
+          "nodeLineageTag": "00000000-0000-0000-0000-000000000041",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6130.55899296875,
+            "y": 749.46630535360259
+          },
+          "nodeIndex": "tbl_measures",
+          "nodeLineageTag": "00000000-0000-0000-0000-000000000051",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

@@ -1,0 +1,21 @@
+table tbl_dim_channel
+	lineageTag: 00000000-0000-0000-0000-000000000031
+
+	column channel_label
+		dataType: string
+		lineageTag: 00000000-0000-0000-0000-000000000032
+		summarizeBy: none
+		sourceColumn: channel_label
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_dim_channel = m
+		mode: import
+		source =
+				let
+					Source = #table({"channel_label"}, { {"Mail"}, {"Telephone"}, {"Television"}, {"Online"}, {"On own initiative"}, {"Charity event"}, {"In memory of someone"}, {"Work"}, {"Door-to-door canvassing"}, {"Shopping centre"}, {"Place of worship"}, {"Sponsoring someone"}, {"Other"} })
+				in
+					Source
+
+	annotation PBI_ResultType = Table
+

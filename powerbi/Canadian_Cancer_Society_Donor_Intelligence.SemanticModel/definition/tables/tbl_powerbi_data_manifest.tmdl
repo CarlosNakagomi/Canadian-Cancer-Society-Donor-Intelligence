@@ -1,0 +1,75 @@
+table tbl_powerbi_data_manifest
+	lineageTag: ed36a987-ff9a-478a-b090-7cbe4da9823e
+
+	column powerbi_file
+		dataType: string
+		lineageTag: 8a6b5a21-6d81-4ab3-bb4c-b37f06b4ebe8
+		summarizeBy: none
+		sourceColumn: powerbi_file
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_file
+		dataType: string
+		lineageTag: 8ce84b17-f31c-4425-bd34-7c7bf6e26a35
+		summarizeBy: none
+		sourceColumn: source_file
+
+		annotation SummarizationSetBy = Automatic
+
+	column dashboard_page
+		dataType: string
+		lineageTag: 7361c8c8-4a95-472d-b3f3-112d081e35bc
+		summarizeBy: none
+		sourceColumn: dashboard_page
+
+		annotation SummarizationSetBy = Automatic
+
+	column table_grain
+		dataType: string
+		lineageTag: ce17f29c-a6d4-4ed1-99b2-16b9027bb535
+		summarizeBy: none
+		sourceColumn: table_grain
+
+		annotation SummarizationSetBy = Automatic
+
+	column rows
+		dataType: int64
+		formatString: 0
+		lineageTag: b8b5baa6-c056-4ac3-a559-25a58ba6ff47
+		summarizeBy: sum
+		sourceColumn: rows
+
+		annotation SummarizationSetBy = Automatic
+
+	column columns
+		dataType: int64
+		formatString: 0
+		lineageTag: e0f8064f-642f-4603-a8dc-5eec47cbac8f
+		summarizeBy: sum
+		sourceColumn: columns
+
+		annotation SummarizationSetBy = Automatic
+
+	column sha256
+		dataType: string
+		lineageTag: 5568332b-c466-4cbb-85d2-70033a135723
+		summarizeBy: none
+		sourceColumn: sha256
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_powerbi_data_manifest = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_powerbi_data_manifest_Table = Source{[Item="tbl_powerbi_data_manifest",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_powerbi_data_manifest_Table,{{"powerbi_file", type text}, {"source_file", type text}, {"dashboard_page", type text}, {"table_grain", type text}, {"rows", Int64.Type}, {"columns", Int64.Type}, {"sha256", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

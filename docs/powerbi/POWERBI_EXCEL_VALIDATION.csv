@@ -1,0 +1,229 @@
+csv_filename,worksheet_name,excel_table_name,row_count_csv,row_count_excel_table,column_count_csv,column_count_excel_table,column_names_match,table_ref,expected_ref,status
+,MANIFEST,tbl_MANIFEST,26,26,7,7,True,A1:G27,A1:G27,pass
+page1_canadian_donor_overall.csv,p1_can_dnr_overall,tbl_page1_canadian_donor_overall,7,7,7,7,True,A1:G8,A1:G8,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,35,35,13,13,True,A1:M36,A1:M36,pass
+page1_donation_amount_bands.csv,p1_don_amount_bands,tbl_page1_donation_amount_bands,7,7,7,7,True,A1:G8,A1:G8,pass
+page1_donation_frequency.csv,p1_don_freq,tbl_page1_donation_frequency,24,24,4,4,True,A1:D25,A1:D25,pass
+page2_health_donation_distribution.csv,p2_hlth_don_dist,tbl_page2_health_donation_distribution,7,7,7,7,True,A1:G8,A1:G8,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,5,5,19,19,True,A1:S6,A1:S6,pass
+page2_health_donor_overview.csv,p2_hlth_dnr_overview,tbl_page2_health_donor_overview,13,13,7,7,True,A1:G14,A1:G14,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,4,4,18,18,True,A1:R5,A1:R5,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,7,7,20,20,True,A1:T8,A1:T8,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,4,4,20,20,True,A1:T5,A1:T5,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,6,6,20,20,True,A1:T7,A1:T7,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,10,10,21,21,True,A1:U11,A1:U11,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,65,65,12,12,True,A1:L66,A1:L66,pass
+page3_giving_behaviour_summary.csv,p3_giv_behaviour_sum,tbl_page3_giving_behaviour_summary,36,36,10,10,True,A1:J37,A1:J37,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,39,39,17,17,True,A1:Q40,A1:Q40,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,56,56,12,12,True,A1:L57,A1:L57,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,40,40,12,12,True,A1:L41,A1:L41,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,24,24,12,12,True,A1:L25,A1:L25,pass
+page5_barrier_category_summary.csv,p5_bar_category_sum,tbl_page5_barrier_category_summary,27,27,5,5,True,A1:E28,A1:E28,pass
+page5_barrier_summary.csv,p5_bar_sum,tbl_page5_barrier_summary,66,66,14,14,True,A1:N67,A1:N67,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,72,72,13,13,True,A1:M73,A1:M73,pass
+page6_evidence_table.csv,p6_evidence_table,tbl_page6_evidence_table,20,20,5,5,True,A1:E21,A1:E21,pass
+page6_priority_audiences.csv,p6_priority_audiences,tbl_page6_priority_audiences,5,5,11,11,True,A1:K6,A1:K6,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,1,1,14,14,True,A1:N2,A1:N2,pass
+page7_bonus_top_model_coefficients.csv,p7_bonus_top_model_coef,tbl_page7_bonus_top_model_coefficients,30,30,4,4,True,A1:D31,A1:D31,pass
+powerbi_data_manifest.csv,powerbi_data_manifest,tbl_powerbi_data_manifest,25,25,7,7,True,A1:G26,A1:G26,pass
+,MANIFEST,tbl_MANIFEST,,,,,,numeric sample F2,7,pass
+,MANIFEST,tbl_MANIFEST,,,,,,numeric sample G2,7,pass
+page1_canadian_donor_overall.csv,p1_can_dnr_overall,tbl_page1_canadian_donor_overall,,,,,,numeric sample D2,26678.0,pass
+page1_canadian_donor_overall.csv,p1_can_dnr_overall,tbl_page1_canadian_donor_overall,,,,,,numeric sample E2,33038673.0,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample C2,2642,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample D2,4780472,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample E2,32.8,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample F2,31.1,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample G2,867,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample H2,1484748,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample I2,193.31,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample J2,50.0,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample K2,1.96,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample L2,1.0,pass
+page1_canadian_donor_segments.csv,p1_can_dnr_segments,tbl_page1_canadian_donor_segments,,,,,,numeric sample M2,1,pass
+page1_donation_amount_bands.csv,p1_don_amount_bands,tbl_page1_donation_amount_bands,,,,,,numeric sample B2,2961,pass
+page1_donation_amount_bands.csv,p1_don_amount_bands,tbl_page1_donation_amount_bands,,,,,,numeric sample C2,4123863,pass
+page1_donation_amount_bands.csv,p1_don_amount_bands,tbl_page1_donation_amount_bands,,,,,,numeric sample D2,23.3,pass
+page1_donation_amount_bands.csv,p1_don_amount_bands,tbl_page1_donation_amount_bands,,,,,,numeric sample E2,78085693,pass
+page1_donation_amount_bands.csv,p1_don_amount_bands,tbl_page1_donation_amount_bands,,,,,,numeric sample F2,0.6,pass
+page1_donation_amount_bands.csv,p1_don_amount_bands,tbl_page1_donation_amount_bands,,,,,,numeric sample G2,1,pass
+page1_donation_frequency.csv,p1_don_freq,tbl_page1_donation_frequency,,,,,,numeric sample A2,1,pass
+page1_donation_frequency.csv,p1_don_freq,tbl_page1_donation_frequency,,,,,,numeric sample B2,4360,pass
+page1_donation_frequency.csv,p1_don_freq,tbl_page1_donation_frequency,,,,,,numeric sample C2,5617441,pass
+page1_donation_frequency.csv,p1_don_freq,tbl_page1_donation_frequency,,,,,,numeric sample D2,31.7,pass
+page2_health_donation_distribution.csv,p2_hlth_don_dist,tbl_page2_health_donation_distribution,,,,,,numeric sample B2,1,pass
+page2_health_donation_distribution.csv,p2_hlth_don_dist,tbl_page2_health_donation_distribution,,,,,,numeric sample C2,2139,pass
+page2_health_donation_distribution.csv,p2_hlth_don_dist,tbl_page2_health_donation_distribution,,,,,,numeric sample D2,2314418,pass
+page2_health_donation_distribution.csv,p2_hlth_don_dist,tbl_page2_health_donation_distribution,,,,,,numeric sample E2,34.0,pass
+page2_health_donation_distribution.csv,p2_hlth_don_dist,tbl_page2_health_donation_distribution,,,,,,numeric sample F2,46780241,pass
+page2_health_donation_distribution.csv,p2_hlth_don_dist,tbl_page2_health_donation_distribution,,,,,,numeric sample G2,2.6,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample B2,26678,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample C2,33038673,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample G2,6399,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample H2,6797272,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample I2,20.6,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample J2,38.3,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample O2,1793152067,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample P2,263.8,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample Q2,60.0,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample R2,1.66,pass
+page2_health_donor_group_comparison.csv,p2_hlth_dnr_group_comparison,tbl_page2_health_donor_group_comparison,,,,,,numeric sample S2,1.0,pass
+page2_health_donor_overview.csv,p2_hlth_dnr_overview,tbl_page2_health_donor_overview,,,,,,numeric sample D2,26678.0,pass
+page2_health_donor_overview.csv,p2_hlth_dnr_overview,tbl_page2_health_donor_overview,,,,,,numeric sample E2,33038673.0,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample B2,6399,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample C2,6797272,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample D2,3534,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample E2,3013187,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample F2,6797272,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample G2,44.3,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample H2,1497,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample I2,1287597,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample J2,6754584,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample K2,19.1,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample L2,809,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample M2,660621,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample N2,6746280,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample O2,9.8,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample P2,3534,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample Q2,123.73,pass
+page2_health_donor_volunteering.csv,p2_hlth_dnr_volunteering,tbl_page2_health_donor_volunteering,,,,,,numeric sample R2,42.0,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample B2,1,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample D2,1,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample E2,2642,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample F2,4780472,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample J2,179,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample K2,324765,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample L2,6.8,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample M2,21.9,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample N2,4.8,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample O2,68.01,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample P2,30.0,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample Q2,207.55,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample R2,80.0,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample S2,189.32,pass
+page2_health_profile_age.csv,p2_hlth_prof_age,tbl_page2_health_profile_age,,,,,,numeric sample T2,50.0,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample B2,1,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample D2,1,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample E2,2703,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample F2,4046313,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample J2,387,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample K2,522028,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample L2,12.9,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample M2,33.9,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample N2,7.7,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample O2,119.25,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample P2,50.0,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample Q2,366.46,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample R2,130.0,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample S2,339.7,pass
+page2_health_profile_education.csv,p2_hlth_prof_education,tbl_page2_health_profile_education,,,,,,numeric sample T2,50.0,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample B2,1,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample D2,1,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample E2,7102,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample F2,10241036,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample J2,1106,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample K2,1358322,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample L2,13.3,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample M2,32.0,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample N2,20.0,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample O2,103.63,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample P2,50.0,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample Q2,445.41,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample R2,150.0,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample S2,419.39,pass
+page2_health_profile_income.csv,p2_hlth_prof_income,tbl_page2_health_profile_income,,,,,,numeric sample T2,80.0,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample B2,10,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample D2,1,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample E2,1067,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample F2,458642,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample J2,329,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample K2,118098,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample L2,25.7,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample M2,42.9,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample N2,1.7,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample O2,121.75,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample P2,50.0,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample Q2,525.86,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample R2,190.0,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample S2,360.76,pass
+page2_health_profile_province.csv,p2_hlth_prof_province,tbl_page2_health_profile_province,,,,,,numeric sample T2,100.0,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,,,,,,numeric sample F2,1,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,,,,,,numeric sample G2,2139,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,,,,,,numeric sample H2,2314418,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,,,,,,numeric sample I2,2314418,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,,,,,,numeric sample J2,544,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,,,,,,numeric sample K2,507363,pass
+page3_channel_by_health_value.csv,p3_channel_by_hlth_value,tbl_page3_channel_by_health_value,,,,,,numeric sample L2,21.9,pass
+page3_giving_behaviour_summary.csv,p3_giv_behaviour_sum,tbl_page3_giving_behaviour_summary,,,,,,numeric sample E2,1,pass
+page3_giving_behaviour_summary.csv,p3_giv_behaviour_sum,tbl_page3_giving_behaviour_summary,,,,,,numeric sample G2,2676,pass
+page3_giving_behaviour_summary.csv,p3_giv_behaviour_sum,tbl_page3_giving_behaviour_summary,,,,,,numeric sample H2,2659753,pass
+page3_giving_behaviour_summary.csv,p3_giv_behaviour_sum,tbl_page3_giving_behaviour_summary,,,,,,numeric sample I2,42.7,pass
+page3_giving_behaviour_summary.csv,p3_giv_behaviour_sum,tbl_page3_giving_behaviour_summary,,,,,,numeric sample J2,6234246,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample E2,1,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample F2,6399,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample G2,6797272,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample H2,6797272,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample I2,2358,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample J2,2211449,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample K2,32.5,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample L2,756441379,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample M2,342.06,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample N2,100.0,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample O2,2.01,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample P2,1.0,pass
+page3_giving_channel_summary.csv,p3_giv_channel_sum,tbl_page3_giving_channel_summary,,,,,,numeric sample Q2,19.2,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,,,,,,numeric sample F2,1,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,,,,,,numeric sample G2,179,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,,,,,,numeric sample H2,324765,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,,,,,,numeric sample I2,259539,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,,,,,,numeric sample J2,90,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,,,,,,numeric sample K2,159453,pass
+page4_motivation_by_age.csv,p4_motiv_by_age,tbl_page4_motivation_by_age,,,,,,numeric sample L2,61.4,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,,,,,,numeric sample F2,1,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,,,,,,numeric sample G2,2139,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,,,,,,numeric sample H2,2314418,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,,,,,,numeric sample I2,1981321,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,,,,,,numeric sample J2,1363,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,,,,,,numeric sample K2,1383971,pass
+page4_motivation_by_health_value.csv,p4_motiv_by_hlth_value,tbl_page4_motivation_by_health_value,,,,,,numeric sample L2,69.9,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample E2,1,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample F2,6399,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample G2,6797272,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample H2,6016138,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample I2,4582,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample J2,4784618,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample K2,79.5,pass
+page4_motivation_summary.csv,p4_motiv_sum,tbl_page4_motivation_summary,,,,,,numeric sample L2,26.9,pass
+page5_barrier_category_summary.csv,p5_bar_category_sum,tbl_page5_barrier_category_summary,,,,,,numeric sample C2,28.8,pass
+page5_barrier_category_summary.csv,p5_bar_category_sum,tbl_page5_barrier_category_summary,,,,,,numeric sample D2,36.7,pass
+page5_barrier_summary.csv,p5_bar_sum,tbl_page5_barrier_summary,,,,,,numeric sample G2,1,pass
+page5_barrier_summary.csv,p5_bar_sum,tbl_page5_barrier_summary,,,,,,numeric sample J2,6353150,pass
+page5_barrier_summary.csv,p5_bar_sum,tbl_page5_barrier_summary,,,,,,numeric sample K2,4580,pass
+page5_barrier_summary.csv,p5_bar_sum,tbl_page5_barrier_summary,,,,,,numeric sample L2,4759395,pass
+page5_barrier_summary.csv,p5_bar_sum,tbl_page5_barrier_summary,,,,,,numeric sample M2,74.9,pass
+page5_barrier_summary.csv,p5_bar_sum,tbl_page5_barrier_summary,,,,,,numeric sample N2,9.400000000000006,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,,,,,,numeric sample G2,1,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,,,,,,numeric sample H2,499,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,,,,,,numeric sample I2,496999,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,,,,,,numeric sample J2,451455,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,,,,,,numeric sample K2,346,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,,,,,,numeric sample L2,330098,pass
+page5_barriers_by_income.csv,p5_bars_by_income,tbl_page5_barriers_by_income,,,,,,numeric sample M2,73.1,pass
+page6_priority_audiences.csv,p6_priority_audiences,tbl_page6_priority_audiences,,,,,,numeric sample A2,1,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample A2,0.2398522009210667,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample B2,0.7199719551282051,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample C2,0.3679141441937259,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample D2,0.6963541666666667,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample E2,0.4814548073460569,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample F2,1337,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample G2,2297,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample H2,3787,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample I2,583,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample J2,8004,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample K2,18674,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample L2,0.239880059970015,pass
+page7_bonus_model_metrics.csv,p7_bonus_model_metrics,tbl_page7_bonus_model_metrics,,,,,,numeric sample M2,0.2398522009210667,pass
+page7_bonus_top_model_coefficients.csv,p7_bonus_top_model_coef,tbl_page7_bonus_top_model_coefficients,,,,,,numeric sample B2,0.3735399284892876,pass
+page7_bonus_top_model_coefficients.csv,p7_bonus_top_model_coef,tbl_page7_bonus_top_model_coefficients,,,,,,numeric sample C2,1.452868573232625,pass
+powerbi_data_manifest.csv,powerbi_data_manifest,tbl_powerbi_data_manifest,,,,,,numeric sample E2,7,pass
+powerbi_data_manifest.csv,powerbi_data_manifest,tbl_powerbi_data_manifest,,,,,,numeric sample F2,7,pass

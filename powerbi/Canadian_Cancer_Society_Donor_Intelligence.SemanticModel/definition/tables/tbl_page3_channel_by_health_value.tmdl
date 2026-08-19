@@ -1,0 +1,119 @@
+table tbl_page3_channel_by_health_value
+	lineageTag: ad87ddb1-7f77-4805-a96f-6ff535a29d35
+
+	column chapter
+		dataType: string
+		lineageTag: 83bb06c3-d103-4f69-9a21-e558aefa2310
+		summarizeBy: none
+		sourceColumn: chapter
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_variable
+		dataType: string
+		lineageTag: 540bd69b-c002-48ac-aae5-6c248cf83cde
+		summarizeBy: none
+		sourceColumn: segment_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_label
+		dataType: string
+		lineageTag: 4582c5f3-cf7d-4861-a380-65d12ae85ee8
+		summarizeBy: none
+		sourceColumn: segment_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel_key
+		dataType: string
+		lineageTag: b8d6d220-ba16-4bf6-9247-fdb807550d6b
+		summarizeBy: none
+		sourceColumn: channel_key
+
+		annotation SummarizationSetBy = Automatic
+
+	column channel_label
+		dataType: string
+		lineageTag: 3fcd639a-8f2c-45ce-ba2e-ce445a999db1
+		summarizeBy: none
+		sourceColumn: channel_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 7415470a-6409-4904-a408-b188d9f39f12
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_health_donor_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 9253c537-d4bb-41bd-98f5-79fa047106c0
+		summarizeBy: sum
+		sourceColumn: sample_health_donor_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b19543f-cdaa-44ca-9818-f68f0b320a85
+		summarizeBy: sum
+		sourceColumn: weighted_health_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column valid_denominator_weighted
+		dataType: int64
+		formatString: 0
+		lineageTag: 648e0cfe-342b-4812-8ad8-912a7e755967
+		summarizeBy: sum
+		sourceColumn: valid_denominator_weighted
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_channel_user_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 3caeef60-0c54-4f73-a1ab-eb781b6eeb80
+		summarizeBy: sum
+		sourceColumn: sample_channel_user_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_channel_users
+		dataType: int64
+		formatString: 0
+		lineageTag: b18d07aa-18d0-4571-b839-17e0a3481fab
+		summarizeBy: sum
+		sourceColumn: weighted_channel_users
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_channel_use_rate_pct
+		dataType: double
+		lineageTag: d04d84b3-57f8-4851-a92b-8d109b3b3f02
+		summarizeBy: sum
+		sourceColumn: weighted_channel_use_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tbl_page3_channel_by_health_value = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page3_channel_by_health_value_Table = Source{[Item="tbl_page3_channel_by_health_value",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page3_channel_by_health_value_Table,{{"chapter", type text}, {"segment_variable", type text}, {"segment_label", type text}, {"channel_key", type text}, {"channel_label", type text}, {"sort_order", Int64.Type}, {"sample_health_donor_n", Int64.Type}, {"weighted_health_donors", Int64.Type}, {"valid_denominator_weighted", Int64.Type}, {"sample_channel_user_n", Int64.Type}, {"weighted_channel_users", Int64.Type}, {"weighted_channel_use_rate_pct", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

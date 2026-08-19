@@ -1,0 +1,51 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["tbl_powerbi_data_manifest","tbl_page7_bonus_top_model_coefficients","tbl_page7_bonus_model_metrics","tbl_page6_priority_audiences","tbl_page6_evidence_table","tbl_page5_barriers_by_income","tbl_page5_barrier_summary","tbl_page5_barrier_category_summary","tbl_page4_motivation_by_health_value","tbl_page4_motivation_summary","tbl_page4_motivation_by_age","tbl_page3_giving_channel_summary","tbl_page3_giving_behaviour_summary","tbl_page3_channel_by_health_value","tbl_page2_health_profile_province","tbl_page2_health_profile_income","tbl_page2_health_profile_education","tbl_page2_health_donor_volunteering","tbl_page2_health_donor_overview","tbl_page2_health_profile_age","tbl_page2_health_donation_distribution","tbl_page2_health_donor_group_comparison","tbl_page1_donation_frequency","tbl_page1_donation_amount_bands","tbl_page1_canadian_donor_segments","tbl_MANIFEST","tbl_page1_canadian_donor_overall","tbl_dim_province","tbl_dim_agegroup","tbl_dim_incomeband","tbl_dim_channel","tbl_dim_segment","tbl_measures","PowerBIWorkbookPath"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table tbl_powerbi_data_manifest
+ref table tbl_page7_bonus_top_model_coefficients
+ref table tbl_page7_bonus_model_metrics
+ref table tbl_page6_priority_audiences
+ref table tbl_page6_evidence_table
+ref table tbl_page5_barriers_by_income
+ref table tbl_page5_barrier_summary
+ref table tbl_page5_barrier_category_summary
+ref table tbl_page4_motivation_by_health_value
+ref table tbl_page4_motivation_summary
+ref table tbl_page4_motivation_by_age
+ref table tbl_page3_giving_channel_summary
+ref table tbl_page3_giving_behaviour_summary
+ref table tbl_page3_channel_by_health_value
+ref table tbl_page2_health_profile_province
+ref table tbl_page2_health_profile_income
+ref table tbl_page2_health_profile_education
+ref table tbl_page2_health_donor_volunteering
+ref table tbl_page2_health_donor_overview
+ref table tbl_page2_health_profile_age
+ref table tbl_page2_health_donation_distribution
+ref table tbl_page2_health_donor_group_comparison
+ref table tbl_page1_donation_frequency
+ref table tbl_page1_donation_amount_bands
+ref table tbl_page1_canadian_donor_segments
+ref table tbl_MANIFEST
+ref table tbl_page1_canadian_donor_overall
+ref table tbl_dim_province
+ref table tbl_dim_agegroup
+ref table tbl_dim_incomeband
+ref table tbl_dim_channel
+ref table tbl_dim_segment
+ref table tbl_measures
+
+ref cultureInfo en-US
+

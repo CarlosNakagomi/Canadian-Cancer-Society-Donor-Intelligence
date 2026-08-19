@@ -1,0 +1,127 @@
+table tbl_page5_barriers_by_income
+	lineageTag: dd5a4d51-875f-4049-9efd-6f3090b1a603
+
+	column chapter
+		dataType: string
+		lineageTag: a3bea52c-abd2-414b-a7c6-75d99a4f39a9
+		summarizeBy: none
+		sourceColumn: chapter
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_variable
+		dataType: string
+		lineageTag: e84d76ae-01dc-4be5-9f2c-4d0949176c11
+		summarizeBy: none
+		sourceColumn: segment_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_label
+		dataType: string
+		lineageTag: 4b99d4d4-9996-46e3-916c-40f32a95ffa1
+		summarizeBy: none
+		sourceColumn: segment_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column barrier_variable
+		dataType: string
+		lineageTag: 02c277c8-c8fa-47c9-bf63-f4f99cbeaba8
+		summarizeBy: none
+		sourceColumn: barrier_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column barrier_label
+		dataType: string
+		lineageTag: b823f296-11ac-4e30-8632-482317031e20
+		summarizeBy: none
+		sourceColumn: barrier_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column barrier_category
+		dataType: string
+		lineageTag: a43406cf-74df-4d12-9b81-5e0ecf68c97e
+		summarizeBy: none
+		sourceColumn: barrier_category
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: 9c892cb3-8bfa-4dbc-991e-2fd49c69a7d2
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_health_donor_n
+		dataType: int64
+		formatString: 0
+		lineageTag: f7aac9c1-4afd-44f5-a9b8-df2bd4ccd072
+		summarizeBy: sum
+		sourceColumn: sample_health_donor_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: bae06a2b-1e72-401f-91c2-6ac8a7cf7282
+		summarizeBy: sum
+		sourceColumn: weighted_health_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column valid_denominator_weighted
+		dataType: int64
+		formatString: 0
+		lineageTag: cb45df52-8583-4896-9868-65786e0986b4
+		summarizeBy: sum
+		sourceColumn: valid_denominator_weighted
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_yes_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 0f0d09e8-d24e-4514-ad04-5c9b5f7c3b26
+		summarizeBy: sum
+		sourceColumn: sample_yes_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_yes
+		dataType: int64
+		formatString: 0
+		lineageTag: 84074a6a-b959-4343-ae1b-09919cbc6b75
+		summarizeBy: sum
+		sourceColumn: weighted_yes
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_yes_pct
+		dataType: double
+		lineageTag: 40c63476-3059-41b8-ba13-7f1417872f9d
+		summarizeBy: sum
+		sourceColumn: weighted_yes_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tbl_page5_barriers_by_income = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page5_barriers_by_income_Table = Source{[Item="tbl_page5_barriers_by_income",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page5_barriers_by_income_Table,{{"chapter", type text}, {"segment_variable", type text}, {"segment_label", type text}, {"barrier_variable", type text}, {"barrier_label", type text}, {"barrier_category", type text}, {"sort_order", Int64.Type}, {"sample_health_donor_n", Int64.Type}, {"weighted_health_donors", Int64.Type}, {"valid_denominator_weighted", Int64.Type}, {"sample_yes_n", Int64.Type}, {"weighted_yes", Int64.Type}, {"weighted_yes_pct", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

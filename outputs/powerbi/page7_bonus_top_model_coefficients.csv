@@ -1,0 +1,31 @@
+feature,coefficient,odds_ratio_per_standardized_unit,direction
+AGEGR10_label_65 to 74 years,0.3735399284892876,1.452868573232625,Higher predicted Health donor likelihood
+AGEGR10_label_75 years and over,0.3688725727799303,1.4461033190076729,Higher predicted Health donor likelihood
+AGEGR10_label_55 to 64 years,0.2633328950338212,1.3012598297925495,Higher predicted Health donor likelihood
+GENDER2_label_Woman+,0.2592749931623439,1.2959901442584856,Higher predicted Health donor likelihood
+MARSTAT_label_Married,0.22384845096764228,1.2508814351919737,Higher predicted Health donor likelihood
+"INCG2_label_Less than $25,000",-0.21156028984840022,0.8093204857724162,Lower predicted Health donor likelihood
+FV_030_label_Yes,0.20341866028688688,1.2255854648166653,Higher predicted Health donor likelihood
+FV1FVOL_label_Volunteer,0.1724661162556429,1.1882315581985166,Higher predicted Health donor likelihood
+AGEGR10_label_45 to 54 years,0.15794154090727758,1.1710977313956707,Higher predicted Health donor likelihood
+PRV_label_British Columbia,-0.13291493626968046,0.8755395656027222,Lower predicted Health donor likelihood
+"INCG2_label_$25,000 to $49,999",-0.11798670279448248,0.8887078698672396,Lower predicted Health donor likelihood
+ED4CAT_label_Less than high school,-0.11249156186592839,0.8936048874345497,Lower predicted Health donor likelihood
+"INCG2_label_$125,000 and more",0.11024370790910956,1.1165501494059566,Higher predicted Health donor likelihood
+HSDSIZEC_label_6 or more persons,-0.09748463567751703,0.9071162786757694,Lower predicted Health donor likelihood
+MARSTAT_label_Living common law,0.08988956599281633,1.094053456326352,Higher predicted Health donor likelihood
+HSDSIZEC_label_2 persons,0.08700088866810286,1.0908976491637914,Higher predicted Health donor likelihood
+ED4CAT_label_Post-secondary diploma,0.08620887073131343,1.0900339807240478,Higher predicted Health donor likelihood
+"FAMINCG2_label_$125,000 and more",0.08381503367733775,1.087427737696044,Higher predicted Health donor likelihood
+HSDSIZEC_label_4 persons,-0.08180269773962598,0.9214537456691192,Lower predicted Health donor likelihood
+ED4CAT_label_Not stated,-0.07994092665153618,0.9231708795709516,Lower predicted Health donor likelihood
+ED4CAT_label_University diploma,0.07919603499815489,1.0824164927883586,Higher predicted Health donor likelihood
+HSDSIZEC_label_3 persons,-0.07279537881363299,0.9297910655129221,Lower predicted Health donor likelihood
+AGEGR10_label_35 to 44 years,0.07267604868439012,1.075382109031911,Higher predicted Health donor likelihood
+"INCG2_label_$50,000 to $74,999",-0.07001386649823775,0.9323808909583274,Lower predicted Health donor likelihood
+HSDSIZEC_label_5 persons,-0.06681957263839576,0.9353639513626418,Lower predicted Health donor likelihood
+PRV_label_Quebec,-0.06241552423587387,0.9394924238017799,Lower predicted Health donor likelihood
+FV_100_label_Yes,0.055066858470137786,1.0566112557260798,Higher predicted Health donor likelihood
+MARSTAT_label_Never married (not living common law),0.047301396142598526,1.0484379566204582,Higher predicted Health donor likelihood
+MARSTAT_label_Widowed (not living common law),0.04528208448322634,1.0463229697580174,Higher predicted Health donor likelihood
+PRV_label_Nova Scotia,-0.04259735979650961,0.9582971613623577,Lower predicted Health donor likelihood

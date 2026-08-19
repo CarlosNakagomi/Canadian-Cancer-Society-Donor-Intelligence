@@ -1,0 +1,73 @@
+chapter,segment_variable,segment_label,barrier_variable,barrier_label,barrier_category,sort_order,sample_health_donor_n,weighted_health_donors,valid_denominator_weighted,sample_yes_n,weighted_yes,weighted_yes_pct
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_020,Already gave enough,Current giving satisfied,1,499,496999,451455,346,330098,73.1
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_030,Could not afford a larger donation,Financial,2,499,496999,365045,209,207538,56.9
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_040,No one asked,Solicitation/opportunity,3,499,496999,350294,85,82633,23.6
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_050,Did not know where to make other donations,Information/access,4,499,496999,352772,25,26160,7.4
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_060,Hard to find a cause,Information/access,5,499,496999,350822,28,21960,6.3
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_070,Gave time instead,Alternative contribution,6,499,496999,349810,83,72000,20.6
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_080,Gave directly to people,Alternative contribution,7,499,496999,352757,130,116129,32.9
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_090,Tax credit not enough incentive,Incentive,8,499,496999,439879,95,88425,20.1
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_110,Money would not be used efficiently,Trust/efficiency,9,499,496999,437435,115,106936,24.4
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_130,Did not like way requests were made,Solicitation concern,10,499,496999,349754,85,71127,20.3
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_150,So many organizations,Choice overload,11,499,496999,460922,283,279489,60.6
+Chapter 5,INCG2_label,"$100,000 to $124,999",NG_160,Charity fraud,Trust/efficiency,12,499,496999,456927,355,335887,73.5
+Chapter 5,INCG2_label,"$125,000 and more",NG_020,Already gave enough,Current giving satisfied,1,759,781024,726075,567,570360,78.6
+Chapter 5,INCG2_label,"$125,000 and more",NG_030,Could not afford a larger donation,Financial,2,759,781024,509953,217,237965,46.7
+Chapter 5,INCG2_label,"$125,000 and more",NG_040,No one asked,Solicitation/opportunity,3,759,781024,507633,115,119117,23.5
+Chapter 5,INCG2_label,"$125,000 and more",NG_050,Did not know where to make other donations,Information/access,4,759,781024,505641,29,32516,6.4
+Chapter 5,INCG2_label,"$125,000 and more",NG_060,Hard to find a cause,Information/access,5,759,781024,503523,30,36895,7.3
+Chapter 5,INCG2_label,"$125,000 and more",NG_070,Gave time instead,Alternative contribution,6,759,781024,504856,90,81811,16.2
+Chapter 5,INCG2_label,"$125,000 and more",NG_080,Gave directly to people,Alternative contribution,7,759,781024,507734,174,179934,35.4
+Chapter 5,INCG2_label,"$125,000 and more",NG_090,Tax credit not enough incentive,Incentive,8,759,781024,695877,158,160414,23.1
+Chapter 5,INCG2_label,"$125,000 and more",NG_110,Money would not be used efficiently,Trust/efficiency,9,759,781024,689218,157,155458,22.6
+Chapter 5,INCG2_label,"$125,000 and more",NG_130,Did not like way requests were made,Solicitation concern,10,759,781024,507633,113,115862,22.8
+Chapter 5,INCG2_label,"$125,000 and more",NG_150,So many organizations,Choice overload,11,759,781024,724617,411,426741,58.9
+Chapter 5,INCG2_label,"$125,000 and more",NG_160,Charity fraud,Trust/efficiency,12,759,781024,722166,496,506891,70.2
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_020,Already gave enough,Current giving satisfied,1,1569,1751750,1625076,1145,1261912,77.7
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_030,Could not afford a larger donation,Financial,2,1569,1751750,1435883,875,1010857,70.4
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_040,No one asked,Solicitation/opportunity,3,1569,1751750,1393820,279,317960,22.8
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_050,Did not know where to make other donations,Information/access,4,1569,1751750,1389376,127,124549,9.0
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_060,Hard to find a cause,Information/access,5,1569,1751750,1371587,104,120439,8.8
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_070,Gave time instead,Alternative contribution,6,1569,1751750,1381222,271,280695,20.3
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_080,Gave directly to people,Alternative contribution,7,1569,1751750,1382283,503,540929,39.1
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_090,Tax credit not enough incentive,Incentive,8,1569,1751750,1562108,268,276786,17.7
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_110,Money would not be used efficiently,Trust/efficiency,9,1569,1751750,1565609,280,293099,18.7
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_130,Did not like way requests were made,Solicitation concern,10,1569,1751750,1377263,225,230763,16.8
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_150,So many organizations,Choice overload,11,1569,1751750,1670236,934,1032288,61.8
+Chapter 5,INCG2_label,"$25,000 to $49,999",NG_160,Charity fraud,Trust/efficiency,12,1569,1751750,1671301,1148,1259776,75.4
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_020,Already gave enough,Current giving satisfied,1,1561,1484642,1409521,1112,1055940,74.9
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_030,Could not afford a larger donation,Financial,2,1561,1484642,1210485,782,807944,66.7
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_040,No one asked,Solicitation/opportunity,3,1561,1484642,1184096,274,277611,23.4
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_050,Did not know where to make other donations,Information/access,4,1561,1484642,1184783,103,88987,7.5
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_060,Hard to find a cause,Information/access,5,1561,1484642,1180518,77,88365,7.5
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_070,Gave time instead,Alternative contribution,6,1561,1484642,1177930,235,218280,18.5
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_080,Gave directly to people,Alternative contribution,7,1561,1484642,1179190,457,426957,36.2
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_090,Tax credit not enough incentive,Incentive,8,1561,1484642,1364838,266,260515,19.1
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_110,Money would not be used efficiently,Trust/efficiency,9,1561,1484642,1371070,278,265991,19.4
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_130,Did not like way requests were made,Solicitation concern,10,1561,1484642,1182491,216,203336,17.2
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_150,So many organizations,Choice overload,11,1561,1484642,1417721,852,856297,60.4
+Chapter 5,INCG2_label,"$50,000 to $74,999",NG_160,Charity fraud,Trust/efficiency,12,1561,1484642,1426412,1122,1089297,76.4
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_020,Already gave enough,Current giving satisfied,1,905,924534,883855,654,661216,74.8
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_030,Could not afford a larger donation,Financial,2,905,924534,732238,426,450167,61.5
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_040,No one asked,Solicitation/opportunity,3,905,924534,711259,174,183199,25.8
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_050,Did not know where to make other donations,Information/access,4,905,924534,708128,53,51034,7.2
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_060,Hard to find a cause,Information/access,5,905,924534,703578,36,40966,5.8
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_070,Gave time instead,Alternative contribution,6,905,924534,708697,142,144638,20.4
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_080,Gave directly to people,Alternative contribution,7,905,924534,709172,246,246502,34.8
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_090,Tax credit not enough incentive,Incentive,8,905,924534,849233,154,142612,16.8
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_110,Money would not be used efficiently,Trust/efficiency,9,905,924534,846444,174,193827,22.9
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_130,Did not like way requests were made,Solicitation concern,10,905,924534,708100,154,152779,21.6
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_150,So many organizations,Choice overload,11,905,924534,888833,499,535934,60.3
+Chapter 5,INCG2_label,"$75,000 to $99,999",NG_160,Charity fraud,Trust/efficiency,12,905,924534,887679,639,646528,72.8
+Chapter 5,INCG2_label,"Less than $25,000",NG_020,Already gave enough,Current giving satisfied,1,1106,1358322,1257169,756,879869,70.0
+Chapter 5,INCG2_label,"Less than $25,000",NG_030,Could not afford a larger donation,Financial,2,1106,1358322,1180758,695,866262,73.4
+Chapter 5,INCG2_label,"Less than $25,000",NG_040,No one asked,Solicitation/opportunity,3,1106,1358322,1135512,239,321791,28.3
+Chapter 5,INCG2_label,"Less than $25,000",NG_050,Did not know where to make other donations,Information/access,4,1106,1358322,1136124,101,128252,11.3
+Chapter 5,INCG2_label,"Less than $25,000",NG_060,Hard to find a cause,Information/access,5,1106,1358322,1135515,87,115403,10.2
+Chapter 5,INCG2_label,"Less than $25,000",NG_070,Gave time instead,Alternative contribution,6,1106,1358322,1135660,240,299827,26.4
+Chapter 5,INCG2_label,"Less than $25,000",NG_080,Gave directly to people,Alternative contribution,7,1106,1358322,1140815,348,423894,37.2
+Chapter 5,INCG2_label,"Less than $25,000",NG_090,Tax credit not enough incentive,Incentive,8,1106,1358322,1218722,166,183839,15.1
+Chapter 5,INCG2_label,"Less than $25,000",NG_110,Money would not be used efficiently,Trust/efficiency,9,1106,1358322,1225480,198,224841,18.3
+Chapter 5,INCG2_label,"Less than $25,000",NG_130,Did not like way requests were made,Solicitation concern,10,1106,1358322,1138892,182,205635,18.1
+Chapter 5,INCG2_label,"Less than $25,000",NG_150,So many organizations,Choice overload,11,1106,1358322,1286290,615,746887,58.1
+Chapter 5,INCG2_label,"Less than $25,000",NG_160,Charity fraud,Trust/efficiency,12,1106,1358322,1291829,836,1006196,77.9

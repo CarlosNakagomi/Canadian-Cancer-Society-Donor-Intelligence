@@ -1,0 +1,147 @@
+table tbl_page7_bonus_model_metrics
+	lineageTag: 386dd265-d575-4749-9e75-6e10670a75ee
+
+	column threshold
+		dataType: double
+		lineageTag: 328eae23-82e1-4c92-95d4-d7d20c0aeaa1
+		summarizeBy: sum
+		sourceColumn: threshold
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column roc_auc
+		dataType: double
+		lineageTag: 47a91d7d-60b8-4fda-9892-19b08bfd9892
+		summarizeBy: sum
+		sourceColumn: roc_auc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column precision
+		dataType: double
+		lineageTag: fdf80761-e393-4265-b2c9-035be118664a
+		summarizeBy: sum
+		sourceColumn: precision
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column recall
+		dataType: double
+		lineageTag: d9d460e0-8cda-4e03-a893-80c53f470104
+		summarizeBy: sum
+		sourceColumn: recall
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column f1
+		dataType: double
+		lineageTag: 7412c135-5820-4517-9090-4c5bc95710fc
+		summarizeBy: sum
+		sourceColumn: f1
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column true_positive
+		dataType: int64
+		formatString: 0
+		lineageTag: 24878481-4fd3-45fa-83ef-3c324f706077
+		summarizeBy: sum
+		sourceColumn: true_positive
+
+		annotation SummarizationSetBy = Automatic
+
+	column false_positive
+		dataType: int64
+		formatString: 0
+		lineageTag: 79025728-589d-4c7b-a112-cf65aafb3472
+		summarizeBy: sum
+		sourceColumn: false_positive
+
+		annotation SummarizationSetBy = Automatic
+
+	column true_negative
+		dataType: int64
+		formatString: 0
+		lineageTag: 90509637-58e0-4ddc-9224-5f684f6be0a4
+		summarizeBy: sum
+		sourceColumn: true_negative
+
+		annotation SummarizationSetBy = Automatic
+
+	column false_negative
+		dataType: int64
+		formatString: 0
+		lineageTag: 483a0fe1-65d1-4259-8bd7-bd033fde5b2a
+		summarizeBy: sum
+		sourceColumn: false_negative
+
+		annotation SummarizationSetBy = Automatic
+
+	column test_sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 054fef73-ac6b-401f-b194-1da69459015b
+		summarizeBy: sum
+		sourceColumn: test_sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column train_sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 21b7e5bd-e475-44aa-a1d8-6e0322916055
+		summarizeBy: sum
+		sourceColumn: train_sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column test_health_donor_rate
+		dataType: double
+		lineageTag: 1c7c1144-de71-4d74-a0b4-f423e3a0f7a7
+		summarizeBy: sum
+		sourceColumn: test_health_donor_rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column train_health_donor_rate
+		dataType: double
+		lineageTag: 290dc2e7-e2c5-40f0-ab4c-f82358d89981
+		summarizeBy: sum
+		sourceColumn: train_health_donor_rate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column model
+		dataType: string
+		lineageTag: 447d2e5d-03c6-42b7-9313-9058d085eb3e
+		summarizeBy: none
+		sourceColumn: model
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page7_bonus_model_metrics = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page7_bonus_model_metrics_Table = Source{[Item="tbl_page7_bonus_model_metrics",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page7_bonus_model_metrics_Table,{{"threshold", type number}, {"roc_auc", type number}, {"precision", type number}, {"recall", type number}, {"f1", type number}, {"true_positive", Int64.Type}, {"false_positive", Int64.Type}, {"true_negative", Int64.Type}, {"false_negative", Int64.Type}, {"test_sample_n", Int64.Type}, {"train_sample_n", Int64.Type}, {"test_health_donor_rate", type number}, {"train_health_donor_rate", type number}, {"model", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

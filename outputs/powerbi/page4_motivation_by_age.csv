@@ -1,0 +1,57 @@
+chapter,segment_variable,segment_label,motivation_variable,motivation_label,sort_order,sample_health_donor_n,weighted_health_donors,valid_denominator_weighted,sample_yes_n,weighted_yes,weighted_yes_pct
+Chapter 4,AGEGR10_label,15 to 24 years,RG_010,Personally affected,1,179,324765,259539,90,159453,61.4
+Chapter 4,AGEGR10_label,15 to 24 years,RG_020,Tax credit,2,179,324765,258310,12,11839,4.6
+Chapter 4,AGEGR10_label,15 to 24 years,RG_030,Religious reasons,3,179,324765,260658,34,55462,21.3
+Chapter 4,AGEGR10_label,15 to 24 years,RG_035,Spiritual or other beliefs,4,179,324765,259447,33,53270,20.5
+Chapter 4,AGEGR10_label,15 to 24 years,RG_040,Belief in the cause,5,179,324765,259989,123,209751,80.7
+Chapter 4,AGEGR10_label,15 to 24 years,RG_050,Compassion,6,179,324765,261888,129,225693,86.2
+Chapter 4,AGEGR10_label,15 to 24 years,RG_060,Community contribution,7,179,324765,257581,121,208288,80.9
+Chapter 4,AGEGR10_label,15 to 24 years,RG_070,Asked by someone you know,8,179,324765,258310,65,116521,45.1
+Chapter 4,AGEGR10_label,25 to 34 years,RG_010,Personally affected,1,446,766435,661412,280,482806,73.0
+Chapter 4,AGEGR10_label,25 to 34 years,RG_020,Tax credit,2,446,766435,657257,101,169678,25.8
+Chapter 4,AGEGR10_label,25 to 34 years,RG_030,Religious reasons,3,446,766435,654361,80,116412,17.8
+Chapter 4,AGEGR10_label,25 to 34 years,RG_035,Spiritual or other beliefs,4,446,766435,658481,93,155870,23.7
+Chapter 4,AGEGR10_label,25 to 34 years,RG_040,Belief in the cause,5,446,766435,655701,340,582206,88.8
+Chapter 4,AGEGR10_label,25 to 34 years,RG_050,Compassion,6,446,766435,665437,347,596757,89.7
+Chapter 4,AGEGR10_label,25 to 34 years,RG_060,Community contribution,7,446,766435,653589,315,508341,77.8
+Chapter 4,AGEGR10_label,25 to 34 years,RG_070,Asked by someone you know,8,446,766435,648169,213,340632,52.6
+Chapter 4,AGEGR10_label,35 to 44 years,RG_010,Personally affected,1,844,981826,903105,598,722814,80.0
+Chapter 4,AGEGR10_label,35 to 44 years,RG_020,Tax credit,2,844,981826,890805,243,275880,31.0
+Chapter 4,AGEGR10_label,35 to 44 years,RG_030,Religious reasons,3,844,981826,888528,217,241074,27.1
+Chapter 4,AGEGR10_label,35 to 44 years,RG_035,Spiritual or other beliefs,4,844,981826,887134,218,243714,27.5
+Chapter 4,AGEGR10_label,35 to 44 years,RG_040,Belief in the cause,5,844,981826,897852,649,776451,86.5
+Chapter 4,AGEGR10_label,35 to 44 years,RG_050,Compassion,6,844,981826,897528,667,764323,85.2
+Chapter 4,AGEGR10_label,35 to 44 years,RG_060,Community contribution,7,844,981826,898923,619,713739,79.4
+Chapter 4,AGEGR10_label,35 to 44 years,RG_070,Asked by someone you know,8,844,981826,891612,502,597492,67.0
+Chapter 4,AGEGR10_label,45 to 54 years,RG_010,Personally affected,1,993,1070676,929913,690,730455,78.6
+Chapter 4,AGEGR10_label,45 to 54 years,RG_020,Tax credit,2,993,1070676,925382,323,304527,32.9
+Chapter 4,AGEGR10_label,45 to 54 years,RG_030,Religious reasons,3,993,1070676,914982,254,217874,23.8
+Chapter 4,AGEGR10_label,45 to 54 years,RG_035,Spiritual or other beliefs,4,993,1070676,910670,263,228040,25.0
+Chapter 4,AGEGR10_label,45 to 54 years,RG_040,Belief in the cause,5,993,1070676,932746,774,807860,86.6
+Chapter 4,AGEGR10_label,45 to 54 years,RG_050,Compassion,6,993,1070676,933136,772,812530,87.1
+Chapter 4,AGEGR10_label,45 to 54 years,RG_060,Community contribution,7,993,1070676,929899,714,727706,78.3
+Chapter 4,AGEGR10_label,45 to 54 years,RG_070,Asked by someone you know,8,993,1070676,924307,560,569030,61.6
+Chapter 4,AGEGR10_label,55 to 64 years,RG_010,Personally affected,1,1408,1353573,1220345,1052,1008606,82.6
+Chapter 4,AGEGR10_label,55 to 64 years,RG_020,Tax credit,2,1408,1353573,1183622,480,415248,35.1
+Chapter 4,AGEGR10_label,55 to 64 years,RG_030,Religious reasons,3,1408,1353573,1174789,358,291548,24.8
+Chapter 4,AGEGR10_label,55 to 64 years,RG_035,Spiritual or other beliefs,4,1408,1353573,1166865,356,294095,25.2
+Chapter 4,AGEGR10_label,55 to 64 years,RG_040,Belief in the cause,5,1408,1353573,1211800,1090,1022347,84.4
+Chapter 4,AGEGR10_label,55 to 64 years,RG_050,Compassion,6,1408,1353573,1204165,1056,996903,82.8
+Chapter 4,AGEGR10_label,55 to 64 years,RG_060,Community contribution,7,1408,1353573,1188570,914,845460,71.1
+Chapter 4,AGEGR10_label,55 to 64 years,RG_070,Asked by someone you know,8,1408,1353573,1194481,696,617356,51.7
+Chapter 4,AGEGR10_label,65 to 74 years,RG_010,Personally affected,1,1565,1292102,1157860,1182,962991,83.2
+Chapter 4,AGEGR10_label,65 to 74 years,RG_020,Tax credit,2,1565,1292102,1104550,576,402385,36.4
+Chapter 4,AGEGR10_label,65 to 74 years,RG_030,Religious reasons,3,1565,1292102,1086229,411,262305,24.1
+Chapter 4,AGEGR10_label,65 to 74 years,RG_035,Spiritual or other beliefs,4,1565,1292102,1081338,420,281303,26.0
+Chapter 4,AGEGR10_label,65 to 74 years,RG_040,Belief in the cause,5,1565,1292102,1128454,1233,990428,87.8
+Chapter 4,AGEGR10_label,65 to 74 years,RG_050,Compassion,6,1565,1292102,1124693,1195,952322,84.7
+Chapter 4,AGEGR10_label,65 to 74 years,RG_060,Community contribution,7,1565,1292102,1113118,1012,774272,69.6
+Chapter 4,AGEGR10_label,65 to 74 years,RG_070,Asked by someone you know,8,1565,1292102,1109434,621,472445,42.6
+Chapter 4,AGEGR10_label,75 years and over,RG_010,Personally affected,1,964,1007895,883963,690,717492,81.2
+Chapter 4,AGEGR10_label,75 years and over,RG_020,Tax credit,2,964,1007895,849867,394,371970,43.8
+Chapter 4,AGEGR10_label,75 years and over,RG_030,Religious reasons,3,964,1007895,844697,334,320026,37.9
+Chapter 4,AGEGR10_label,75 years and over,RG_035,Spiritual or other beliefs,4,964,1007895,829413,281,281304,33.9
+Chapter 4,AGEGR10_label,75 years and over,RG_040,Belief in the cause,5,964,1007895,872690,747,767111,87.9
+Chapter 4,AGEGR10_label,75 years and over,RG_050,Compassion,6,964,1007895,866088,718,752581,86.9
+Chapter 4,AGEGR10_label,75 years and over,RG_060,Community contribution,7,964,1007895,837811,610,606317,72.4
+Chapter 4,AGEGR10_label,75 years and over,RG_070,Asked by someone you know,8,964,1007895,839336,298,309253,36.8

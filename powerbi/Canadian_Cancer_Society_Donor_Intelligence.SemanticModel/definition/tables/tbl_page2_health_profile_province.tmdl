@@ -1,0 +1,208 @@
+table tbl_page2_health_profile_province
+	lineageTag: 5c843cbe-8090-46ee-840b-295360816dff
+
+	column segment_variable
+		dataType: string
+		lineageTag: 366a9943-4b99-4599-9b2c-d16defc9b022
+		summarizeBy: none
+		sourceColumn: segment_variable
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_code
+		dataType: int64
+		formatString: 0
+		lineageTag: 1ee6a5d2-3cda-4772-90e6-ecfc386c9572
+		summarizeBy: sum
+		sourceColumn: segment_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment_label
+		dataType: string
+		lineageTag: a235bc7f-4be5-46c5-a01f-ce76f3e1572f
+		summarizeBy: none
+		sourceColumn: segment_label
+
+		annotation SummarizationSetBy = Automatic
+
+	column sort_order
+		dataType: int64
+		formatString: 0
+		lineageTag: eec4fe85-c78c-431c-bd61-22cd47a2d4bf
+		summarizeBy: none
+		sourceColumn: sort_order
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 478088fb-8aed-4c3e-bc96-7d9de65b4ca6
+		summarizeBy: sum
+		sourceColumn: sample_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_population
+		dataType: int64
+		formatString: 0
+		lineageTag: 648f0c74-62a9-4447-a069-46c50e738069
+		summarizeBy: sum
+		sourceColumn: weighted_population
+
+		annotation SummarizationSetBy = Automatic
+
+	column sample_charitable_donor_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 6dab01e5-df64-4905-b699-d594bd4825be
+		summarizeBy: sum
+		sourceColumn: sample_charitable_donor_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_charitable_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 3c47d67f-b7e8-42b4-976e-b2f25ba8c265
+		summarizeBy: sum
+		sourceColumn: weighted_charitable_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_charitable_donor_rate_pct
+		dataType: double
+		lineageTag: 4c0b92fc-c66e-4353-9087-9b75e1db5895
+		summarizeBy: sum
+		sourceColumn: weighted_charitable_donor_rate_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sample_health_donor_n
+		dataType: int64
+		formatString: 0
+		lineageTag: 33aa3be8-f354-48c2-8106-89464c005aa8
+		summarizeBy: sum
+		sourceColumn: sample_health_donor_n
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 606e6f91-594e-4f43-ba22-8e3f2b31dc76
+		summarizeBy: sum
+		sourceColumn: weighted_health_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_health_donor_rate_population_pct
+		dataType: double
+		lineageTag: 83831558-4c5c-4385-8662-bb508e30a604
+		summarizeBy: sum
+		sourceColumn: weighted_health_donor_rate_population_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_health_donor_rate_among_donors_pct
+		dataType: double
+		lineageTag: 9702828f-5e2b-4bdc-ac82-793b1339cfd0
+		summarizeBy: sum
+		sourceColumn: weighted_health_donor_rate_among_donors_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_health_donor_composition_pct
+		dataType: double
+		lineageTag: c11b3834-3c8c-4c4c-a1e2-c5ddba93f122
+		summarizeBy: sum
+		sourceColumn: weighted_health_donor_composition_pct
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_mean_health_donation
+		dataType: double
+		lineageTag: 61e2956c-f7fd-4477-98f6-b533a92369ff
+		summarizeBy: sum
+		sourceColumn: weighted_mean_health_donation
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_health_donation
+		dataType: int64
+		formatString: 0
+		lineageTag: 402b8ec3-2b86-4dba-8b6e-b7b8edfbcc85
+		summarizeBy: sum
+		sourceColumn: weighted_median_health_donation
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_mean_total_giving_health_donors
+		dataType: double
+		lineageTag: e16c233d-79e4-4c5f-8341-57f1338d9b72
+		summarizeBy: sum
+		sourceColumn: weighted_mean_total_giving_health_donors
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_total_giving_health_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 3ad6051a-62ef-4a2d-ab45-d1d44ffae385
+		summarizeBy: sum
+		sourceColumn: weighted_median_total_giving_health_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column weighted_mean_total_giving_nonhealth_donors
+		dataType: double
+		lineageTag: f969105b-b706-41d7-8fa3-cd64e200aefc
+		summarizeBy: sum
+		sourceColumn: weighted_mean_total_giving_nonhealth_donors
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column weighted_median_total_giving_nonhealth_donors
+		dataType: int64
+		formatString: 0
+		lineageTag: 2c49e4d0-bfb8-410b-b62f-0710fc5ae708
+		summarizeBy: sum
+		sourceColumn: weighted_median_total_giving_nonhealth_donors
+
+		annotation SummarizationSetBy = Automatic
+
+	column reliability_note
+		dataType: string
+		lineageTag: a610d193-7bd5-40ba-b93d-a3bf7205df81
+		summarizeBy: none
+		sourceColumn: reliability_note
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tbl_page2_health_profile_province = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(PowerBIWorkbookPath), null, true),
+				    tbl_page2_health_profile_province_Table = Source{[Item="tbl_page2_health_profile_province",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(tbl_page2_health_profile_province_Table,{{"segment_variable", type text}, {"segment_code", Int64.Type}, {"segment_label", type text}, {"sort_order", Int64.Type}, {"sample_n", Int64.Type}, {"weighted_population", Int64.Type}, {"sample_charitable_donor_n", Int64.Type}, {"weighted_charitable_donors", Int64.Type}, {"weighted_charitable_donor_rate_pct", type number}, {"sample_health_donor_n", Int64.Type}, {"weighted_health_donors", Int64.Type}, {"weighted_health_donor_rate_population_pct", type number}, {"weighted_health_donor_rate_among_donors_pct", type number}, {"weighted_health_donor_composition_pct", type number}, {"weighted_mean_health_donation", type number}, {"weighted_median_health_donation", Int64.Type}, {"weighted_mean_total_giving_health_donors", type number}, {"weighted_median_total_giving_health_donors", Int64.Type}, {"weighted_mean_total_giving_nonhealth_donors", type number}, {"weighted_median_total_giving_nonhealth_donors", Int64.Type}, {"reliability_note", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
