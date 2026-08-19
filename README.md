@@ -14,7 +14,7 @@ The project combines Python, SQL, weighted survey analysis, Power BI semantic mo
 
 Download the report and open it directly in Power BI Desktop.
 
-**[View the Power BI Source Project (.pbip)](powerbi/Canadian_Cancer_Society_Donor_Intelligence.pbip)** � project-format source for technical review and version control.
+**[View the Power BI Source Project (.pbip)](powerbi/Canadian_Cancer_Society_Donor_Intelligence.pbip)** — project-format source for technical review and version control.
 
 **Quick preview:** The dashboard screenshots below show all eight report pages.
 
@@ -40,6 +40,17 @@ The analysis uses the **Statistics Canada 2023 Survey on Giving, Volunteering an
 
 Raw source data is not included in this repository because redistribution rights were not established during project preparation. See [data/README.md](data/README.md) for source-data setup notes.
 
+### Understanding the Dataset
+
+The SGVP public-use dataset contains **26,678 survey respondents and 956 raw variables** covering charitable giving, volunteering, demographics, income, education, motivations, barriers, and related characteristics.
+
+Because the SGVP is a sample survey, each respondent is assigned a survey weight (`WGHT_PER`). These weights allow the analysis to produce estimates for the population represented by the survey rather than treating the 26,678 respondents as the entire population.
+
+For example, the dashboard's **~33 million weighted population** is a population estimate derived from the survey weights — not 33 million individual records.
+
+Only variables relevant to the business questions were selected from the raw dataset and transformed into analysis-ready outputs for Python, SQL, and Power BI.
+
+**26,678 respondents → 956 raw variables → selected analytical variables → weighted population estimates → donor intelligence**
 ## Tools & Technologies
 
 - Python
@@ -196,4 +207,5 @@ This is an independent portfolio project. It is not affiliated with, endorsed by
 
 - [Project Brief](docs/Donor_Intelligence_Project_Brief.pdf)
 - [Methodology](docs/METHODOLOGY.md)
+
 
